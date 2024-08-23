@@ -1,5 +1,5 @@
 ﻿<p align="center">
-  <img src="img/image1.png" alt="Logo de UPC" width="100%">
+  ![image](https://github.com/PetPalORG/PetPal-Informe/assets/164519824/55b272a3-26f7-4c8b-9da7-39b023ceaeb5)
 </p>
 
 <div align="center">
