@@ -159,8 +159,7 @@ Link del repositorio:
 # **Capítulo I: Introducción** 
 
 ## **1.1. Startup Profile**
-En un mundo cada vez más digitalizado, donde las relaciones entre marcas e influencers juegan un papel crucial en la estrategia de marketing, surge Connex. Con un enfoque claro en la innovación y un compromiso con la excelencia, nuestro equipo está compuesto por profesionales con experiencia en marketing digital, desarrollo de software, y gestión empresarial, quienes trabajan en sinergia para hacer de Connex una plataforma líder en su sector.
-
+-
 
 ### **1.1.1. Descripcion de la Startup** 
 -
