@@ -7,19 +7,19 @@
 
 Ciclo: 2024 - 2
 
-Curso: Desarrollo de Aplicaciones Open Source
+Curso: Aplicaciones Web
 
-Sección: SW56
+Sección: SI91
 
-Profesor: Efraín Ricardo Bautista Ubillús
+Profesor: Alex Humberto Sánchez Ponce
 
 “Informe TB1"
 
-Startup: LexMed
+Startup: Ez.Vet
 
 Producto: 
 
-Grupo: 1
+Grupo: 2
 
 |          Integrantes          |      Código      |
 |:-----------------------------:|:-------------------:|
