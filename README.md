@@ -83,7 +83,6 @@ Grupo: 1
 [Student Outcome](#student-outcome)
 
 [Capítulo I: Introducción](#capitulo-i-introducción)
-<img src="![alt text](prueba.png)" style="width: 50%;"/>
 - [1.1. Startup Profile](#11-startup-profile)
   - [1.1.1. Descripción de la Startup](#111-descripción-de-la-startup)
   - [1.1.2. Perfiles de integrantes del equipo](#112-perfiles-de-integrantes-del-equipo)
@@ -208,6 +207,7 @@ Grupo: 1
 ### 2.3.4. Empathy Mapping
 ### 2.3.5. As-is Scenario Mapping
 ## 2.4. Ubiquitous Language
+<img src="Tp/prueba.png" style="width: 50%;"/>
 
 # Capítulo III: Requirements Specification
 ## 3.1. To-Be Scenario Mapping
