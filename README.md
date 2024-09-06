@@ -585,17 +585,17 @@ Como norma general, se espera que todo el código desarrollado por los miembros 
 ### 5.1.4. Software Deployment Configuration
 - Creación Landing Page:<br>
 1. Se crea un repositorio remoto en GitHub
-![creation-of-repository-lp](assets/img/Creacion_repo.png)
+
 2. Agregar a participantes
-![adding-members-screenshot-lp](assets/img/miembros_repo.png)
+
 3. Habilitamos GitHub Pages en branch "master" y ruta "/(root)"
-![deploying-repository-in-github-pages-lp](assets/img/Github_pages.png)
+
 
 - Creación Front End App:<br>
-1. Creación de repositorio dentro de nuestra organización:
-![creation-of-repository-lp](assets/img/creacion-repositorio-frontendapp.png)
-2. Agregar a participantes:
-![adding-members-screenshot-lp](assets/img/miembros_repo.png)
+1. Creación de repositorio dentro de nuestra organización
+
+2. Agregar a participantes
+
 
 
 ## 5.2. Landing Page, Services & Applications Implementation
