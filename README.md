@@ -25,7 +25,7 @@ Grupo: 2
 |:-----------------------------:|:-------------------:|
 |      |        |
 |     |        |
-|     |       |
+|Bastidas Bastidas |Diego Martin |
 |Escobar Palomino , Sebastian Matias|u202125968|
 |Ticona Panduro, Estrella del Pilar| u202210659|
 
