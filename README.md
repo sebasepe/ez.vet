@@ -24,7 +24,7 @@ Grupo: 1
 |          Integrantes          |      Código      |
 |:-----------------------------:|:-------------------:|
 |      |        |
-|     |        |
+|   fg  fdf df df   |        |
 |     |       |
 |Escobar Palomino , Sebastian Matias|u202125968|
 |Ticona Panduro, Estrella del Pilar| u202210659|
