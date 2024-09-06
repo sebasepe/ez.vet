@@ -25,7 +25,7 @@ Grupo: 1
 |:-----------------------------:|:-------------------:|
 |      |        |
 |   fg  fdf df df   |        |
-|     |       |
+|De Las Casas Latour, Sebastián|u202213553|
 |Escobar Palomino , Sebastian Matias|u202125968|
 |Ticona Panduro, Estrella del Pilar| u202210659|
 
