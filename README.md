@@ -26,7 +26,7 @@ Grupo: 2
 |      |        |
 |     |        |
 |     |       |
-|||
+|Bottger Salazar, Johan Karl| u202210735|
 |Ticona Panduro, Estrella del Pilar| u202210659|
 
 
@@ -217,6 +217,10 @@ Grupo: 2
 # Capítulo IV: Product Design
 ## 4.1. Style Guidelines
 ### 4.1.1. General Style Guidelines
+Ez.vet tiene como meta principal ofrecer un sistema seguro para locales de veterinaria que facilite el servicio para los usuarios y clientes.
+<strong>Identidad por segmento:</strong>
+
+
 ### 4.1.2. Web Style Guidelines
 ## 4.2. Information Architecture
 ### 4.2.1. Organization Systems
