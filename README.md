@@ -609,11 +609,7 @@ Como norma general, se espera que todo el código desarrollado por los miembros 
 #### 5.2.X.6. Services Documentation Evidence for Sprint Review
 #### 5.2.X.7. Software Deployment Evidence for Sprint Review
 #### 5.2.X.8. Team Collaboration Insights during Sprint
-## 5.3. Validation Interviews
-### 5.3.1. Diseño de Entrevistas
-### 5.3.2. Registro de Entrevistas
-### 5.3.3. Evaluaciones según heurísticas
-# 5.4. Video About-the-Product
+Durante el transcurso de este sprint, todos participamos de forma activa y constante en la creación de las tareas asignadas. Presentamos evidencia de los progresos individuales:
 
 # Conclusiones
 ## Conclusiones y recomendaciones
