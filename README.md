@@ -87,7 +87,7 @@ Sobre el producto:
 
    Las características principales incluyen una interfaz fácil de usar en dispositivos móviles, computadoras y laptops. Además, es esencial eliminar campos innecesarios o obligatorios que puedan complicar el proceso de registro.
 
-   1. #### **Lean UX Hypothesis Statements**
+   #### **1.2.2.3. Lean UX Hypothesis Statements**
 
 **Creemos** que si diseñamos una aplicación intuitiva que permita a los veterinarios gestionar historiales clínicos y recordatorios de manera eficiente
 
@@ -107,7 +107,7 @@ Sobre el producto:
 
 **Cuando** tanto veterinarios como propietarios de mascotas reporten una experiencia de usuario fluida y sin frustraciones, habremos validado que nuestra aplicación cumple con las expectativas de simplicidad y funcionalidad.
 
-1. #### **Lean UX Canvas**
+#### **1.2.2.4. Lean UX Canvas**
 
 
 Problem Statement:
@@ -159,7 +159,7 @@ What's the most important thing we need to learn first?
 What's the least amount of work we need to do to learn the next most important thing?
 
 `   `- Realizar encuestas y pruebas de uso con clínicas veterinarias y dueños de mascotas para obtener retroalimentación temprana.
-1. ## <a name="_toc175363801"></a><a name="_toc176478901"></a>**Segmentos Objetivos**
+## <a name="_toc175363801"></a><a name="_toc176478901"></a>**1.3. Segmentos Objetivos**
    ***Segmentos Objetivo 1 – Clínicas Veterinarias***
 
    Este segmento está compuesto por clínicas veterinarias de todos los tamaños, desde pequeñas prácticas hasta grandes centros veterinarios con múltiples especialistas. Las clínicas veterinarias modernas enfrentan la necesidad de mejorar la eficiencia en la gestión de sus operaciones diarias, ya que suelen manejar grandes volúmenes de información médica de distintas mascotas, además de gestionar inventarios, citas y relaciones con los dueños de las mascotas.
