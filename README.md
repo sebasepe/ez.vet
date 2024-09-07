@@ -151,7 +151,7 @@ La doctora Vanesa comenta que en su trabajo actual utilizan VetPraxis, principal
 
 `	`Lucerito nos comenta que visita al veterinario con bastante regularidad: una vez cada tres meses por su gata pequeña y una vez al mes para bañar a su perra. Ha tenido problemas con la pérdida de cartillas de vacunación, exámenes y otros documentos relacionados con sus gatas adultas. Además, ha cambiado de veterinaria en dos o tres ocasiones por diferentes razones, lo que le ha generado confusión sobre los productos utilizados en el baño de su perra y la marca de las vacunas administradas. Por estos motivos, está totalmente a favor de utilizar una aplicación como ez.vet, ya que le facilitaría acceder a la historia clínica de sus mascotas.
 
-![](Aspose.Words.8040cd47-5364-497a-9bef-a305dfdefb66.007.png)
+![](./feat_img/11.png)
 
 **Entrevistado N°3:**
 
@@ -182,20 +182,15 @@ La doctora Vanesa comenta que en su trabajo actual utilizan VetPraxis, principal
 - El 100% de los entrevistados mostraron interés en utilizar una aplicación móvil para gestionar la información médica de sus mascotas. Consideran que tener acceso digital al historial médico facilitaría las visitas al veterinario y mejoraría la respuesta en caso de emergencias.
 
 ## <a name="_toc175363810"></a><a name="_toc176478910"></a>**2.3. Needfinding**
-   ### <a name="_toc175363811"></a><a name="_toc176478911"></a>**2.3.1. User Personas**
-      ***Segmento 1: Médicos Veterinarios***
+   ### <a name="_toc175363811"></a><a name="_toc176478911"></a>**2.3.1. User Personas**    ***Segmento 1: Médicos Veterinarios***
 
-      ![Interfaz de usuario gráfica, Sitio web
+  ![](./feat_img/13.png)
 
-Descripción generada automáticamente](Aspose.Words.8040cd47-5364-497a-9bef-a305dfdefb66.008.png)
+  ***Segmento 2: Dueños de Mascotas***
 
-      ***Segmento 2: Dueños de Mascotas***
-
-      ![Interfaz de usuario gráfica, Aplicación
-
-Descripción generada automáticamente](Aspose.Words.8040cd47-5364-497a-9bef-a305dfdefb66.009.png)
+  ![](./feat_img/14.png)
   ### <a name="_toc175363813"></a><a name="_toc176478912"></a>**2.3.2. User Task Matrix**
-      ***Segmento 1: Médicos Veterinarios***
+  ***Segmento 1: Médicos Veterinarios***
 
 |**Vanesa Gómez Suarez**|||
 | :-: | :- | :- |
@@ -225,38 +220,30 @@ Descripción generada automáticamente](Aspose.Words.8040cd47-5364-497a-9bef-a30
 ### <a name="_toc175363814"></a><a name="_toc176478913"></a>**2.3.3. User Journey Mapping**
    ***Segmento 1: Médicos Veterinarios***
 
-   ![Interfaz de usuario gráfica, Aplicación
-
-Descripción generada automáticamente con confianza media](Aspose.Words.8040cd47-5364-497a-9bef-a305dfdefb66.010.png)
+   ![](./feat_img/15.png)
 
 
    ***Segmento 2: Dueños de mascotas***
 
-   ![](Aspose.Words.8040cd47-5364-497a-9bef-a305dfdefb66.011.png)
+   ![](./feat_img/16.png)
 
 ### <a name="_toc175363815"></a><a name="_toc176478914"></a>**2.3.4. Empathy Mapping**
    ***Segmento 1: Médicos Veterinarios***
 
-   ![Interfaz de usuario gráfica
-
-Descripción generada automáticamente con confianza media](Aspose.Words.8040cd47-5364-497a-9bef-a305dfdefb66.012.png)
+   ![](./feat_img/17.png)
 
    ***Segmento 2: Dueños de mascotas***
 
-   `	`![Interfaz de usuario gráfica
-
-Descripción generada automáticamente con confianza media](Aspose.Words.8040cd47-5364-497a-9bef-a305dfdefb66.013.png)
+   ![](./feat_img/18.png)
 
 ### <a name="_toc175363816"></a><a name="_toc176478915"></a>**2.3.5. As-is Scenario Mapping**
    ***Segmento 1: Médicos Veterinarios***
 
-   ![](Aspose.Words.8040cd47-5364-497a-9bef-a305dfdefb66.014.jpeg)
+   ![](./feat_img/19.png)
 
    ***Segmento 2: Dueños de Mascotas***
 
-   ![Interfaz de usuario gráfica
-
-Descripción generada automáticamente](Aspose.Words.8040cd47-5364-497a-9bef-a305dfdefb66.015.jpeg)
+   ![](./feat_img/20.png)
 ## <a name="_toc175363817"></a><a name="_toc176478916"></a>**2.4. Ubiquitous Language**
 Este glosario proporciona definiciones claras y precisas de términos específicos al dominio veterinario, facilitando la comunicación entre todos los miembros del equipo y los stakeholders. El objetivo es evitar malentendidos y asegurar que todos compartan una comprensión común de los conceptos clave en el proyecto.
 
