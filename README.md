@@ -6,7 +6,7 @@
     <strong>Universidad Peruana de Ciencias Aplicadas (UPC)</strong><br>    
     <img src="https://upload.wikimedia.org/wikipedia/commons/f/fc/UPC_logo_transparente.png"></img><br>
     <strong>Carrera de Ingeniería de Software - Ciclo V</strong><br><br>
-    <strong>Desarrollo de Aplicaciones Open Source - SI729</strong><br>
+    <strong>Aplicacaiones Web - SI91</strong><br>
     <br><strong>Profesor: Alex Humberto Sánchez Ponce</strong><br>
     <br><strong><b>INFORME DEL TRABAJO FINAL</strong></b><br>
 </p>
