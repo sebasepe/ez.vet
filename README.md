@@ -66,41 +66,17 @@
 | :-: | :-: | :-: | :-: | :-: |
 |1|US012|Landing Page|Como visitante, deseo ver la información en la Landing Page para conocer los servicios ofrecidos.|3|
 |2|US013|Contacto a través de la Landing Page|Como visitante, deseo contactar al equipo para obtener más información sobre los servicios.|3|
-|3|US001||||
-
-||
-| :-: |
-
-|||<p></p><p>Inicio de Sesión</p>|Como usuario registrado, deseo iniciar sesión para acceder a mi cuenta.|2|
-| :-: | :-: | :-: | :- | :-: |
+|3|US001|Inicio de Sesión|Como usuario registrado, deseo iniciar sesión para acceder a mi cuenta.|2| 
 |4|US003|Visualización de Historia Clínica|Como usuario, deseo visualizar la historia clínica de mis mascotas para revisar su historial médico.|5|
 |5|US002|Recuperación de Contraseña|Como usuario, deseo recuperar mi contraseña para acceder a mi cuenta si la olvido.|2|
 |6|US004|Agendamiento de Citas|Como usuario, deseo agendar citas veterinarias para organizar la atención de mis mascotas.|5|
 |7|US006|Consulta de Servicios Veterinarios|Como usuario, deseo consultar los servicios veterinarios disponibles para seleccionar el adecuado.|3|
 |8|US005|Personalización de Notificaciones|Como usuario, deseo personalizar las notificaciones para recibir solo la información relevante.|3|
-|9|US007||||
-
-||
-| :-: |
-
-|||<p></p><p>Visualización de Historial de Citas</p>|Como usuario, deseo visualizar mi historial de citas para hacer seguimiento de las visitas anteriores.|2|
-| :-: | :-: | :-: | :- | :-: |
+|9|US007|Visualización de Historial de Citas|Como usuario, deseo visualizar mi historial de citas para hacer seguimiento de las visitas anteriores.|2|
 |10|US008|Contacto con el Veterinario|Como usuario, deseo contactar al veterinario para hacer preguntas o recibir asesoría.|3|
 |11|US009|Acceso al Foro de la Comunidad|Como usuario, deseo acceder a un foro comunitario para interactuar con otros dueños de mascotas.|5|
 |12|US010|Implementación de API RESTful|Como desarrollador, deseo implementar un API RESTful para la comunicación entre el frontend y backend.|8|
-|13|US011||||
-
-||
-| :-: |
-
-|||<p></p><p>Monitorización de la Salud del Sistema</p>|Como desarrollador, deseo monitorizar la salud del sistema para detectar problemas tempranos.|8|
-| :-: | :-: | :-: | :- | :-: |
-|14|US014|Gestión de Mascotas|||
-
-||
-| :-: |
-
-||||Como usuario, deseo gestionar las mascotas bajo mi cuidado para mantener su información actualizada.|3|
-| :-: | :-: | :-: | :- | :-: |
+|13|US011|Monitorización de la Salud del Sistema</p>|Como desarrollador, deseo monitorizar la salud del sistema para detectar problemas tempranos.|8||
+|14|US014|Gestión de Mascotas|Como usuario, deseo gestionar las mascotas bajo mi cuidado para mantener su información actualizada.|3|
 |15|US015|Registro de Usuario|Como usuario nuevo, deseo registrarme en la plataforma para acceder a las funcionalidades del sistema|5|
 |16|US016|Administración del Backend|Como desarrollador, deseo administrar el backend del sistema para garantizar el correcto funcionamiento.|8|
