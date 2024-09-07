@@ -31,7 +31,7 @@
             <td>U20221A301</td>
         </tr>
         <tr>
-            <td>Chavez Bottger Salazar, Johan Karl</td>
+            <td>Bottger Salazar, Johan Karl</td>
             <td>U202210735</td>
         </tr>
         <tr>
