@@ -1,274 +1,184 @@
-<div align="center">
+# <a name="_toc175363802"></a><a name="_toc176478902"></a>**2. Capítulo II: Requirements Elicitation & Analysis**
+   ## <a name="_toc175363803"></a><a name="_toc176478903"></a>**2.1. Competidores**
+**VetPraxis:** Es una solución de gestión para clínicas veterinarias, creada para mejorar la administración de las operaciones diarias. La aplicación incluye funcionalidades como la gestión de citas, historiales clínicos electrónicos, control de inventario y facturación. Además, ofrece herramientas para facilitar la comunicación con los clientes y el seguimiento de los tratamientos.
 
-![image](https://github.com/PetPalORG/PetPal-Informe/assets/164519824/55b272a3-26f7-4c8b-9da7-39b023ceaeb5)
-</p> 
-# <span style="color:red">**Universidad Peruana de Ciencias Aplicadas**</span>
-## Carrera de Ingeniería de Software
+**VetApp:** Es una plataforma creada para gestionar clínicas veterinarias. Ofrece funciones como la programación de citas, la gestión de historiales clínicos electrónicos y la administración del inventario.
 
-Ciclo: 2024 - 2
+**PetClinic:** Es una aplicación desarrollada para la gestión de clínicas veterinarias y consultas para mascotas. Ofrece funciones para programar citas, gestionar historiales clínicos electrónicos, y administrar inventarios y facturación. La plataforma está diseñada para mejorar la organización y eficiencia en las clínicas, proporcionando herramientas para el seguimiento de tratamientos y la comunicación con los clientes. PetClinic está especialmente adaptada a las necesidades del sector veterinario en Perú.
+### <a name="_toc175363804"></a><a name="_toc176478904"></a>**2.1.1. Análisis Competitivo** 
 
-Curso: Aplicaciones Web
-
-Sección: SI91
-
-Profesor: Alex Humberto Sánchez Ponce
-
-“Informe TB1"
-
-Startup: Ez.Vet
-
-Producto: 
-
-Grupo: 2
-
-|          Integrantes          |      Código      |
-|:-----------------------------:|:-------------------:|
-|      |        |
-|     |        |
-|Bastidas Bastidas |Diego Martin |
-|Escobar Palomino , Sebastian Matias|u202125968|
-|Ticona Panduro, Estrella del Pilar| u202210659|
-
-
-
-</div>
-
-
-<p align="center">
-    <strong>Agosto, 2024</strong>
-</p>
-<br>
-
-<h1 align="center">Registro de versiones del Informe</h1>
-</br>
-<table>
-        <thead>
-            <tr>
-                <th>Versión</th>
-                <th>Fecha</th>
-                <th>Autor</th>
-                <th>Descripción de modificaciones</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <th>TB1</th>
-                <td>20/08/2024</td>
-                <td>
-                    <ul>
-          <li>integrante 1 </li>
-          <li>integrante 2</li>
-          <li>integrante 3</li>
-          <li>integrante 4</li>
-          <li>integrante 5</li>
-                    <ul>
-           </td>
-      <td>            
-             <ul>
-          <li>Capítulo I: Introducción</li>
-          <li>Capítulo II: Requirements Elicitation & Analysis</li>
-          <li>Capítulo III: Requirements Specification</li>
-          <li>Capítulo IV: Product Design</li>
-          <li>Avance del Capítulo V: Product Implementation, Validation & Deployment hasta el punto 5.2.1.8</li>
-          <li>Avance de Conclusiones, Bibliografía y Anexos</li>
-        </ul>
-      </td>
-  </tr>
-</tbody>
+<table><tr><th colspan="6" valign="top"><b>Competitive Analysis Landscape</b></th></tr>
+<tr><td rowspan="2" valign="top"><b>¿Por qué llevar a cabo este análisis?</b></td><td colspan="5" valign="top">Escriba en el recuadro la pregunta que busca responder o el objetivo de este análisis.</td></tr>
+<tr><td colspan="5" valign="top">Para comparar las características tanto internas como externas de los productos que compiten con nosotros.</td></tr>
+<tr><td colspan="2" valign="top">(En la cabecera colocar por cada competidor nombre y logo)</td><td>Ez.vet</td><td>VetPraxis</td><td>VetApp</td><td>PetClinic</td></tr>
+<tr><td rowspan="2"><b>Perfil</b></td><td><b>Overview</b></td><td>Plataforma para clínicas veterinarias que facilita la gestión de historiales clínicos, recordatorios e inventarios mediante una interfaz intuitiva y sencilla de usar.</td><td>Software de gestión veterinaria que mejora la administración de citas, historiales clínicos y facturación a través de una interfaz amigable.</td><td>Aplicación móvil para la gestión de citas, recordatorios e historiales médicos de mascotas, que facilita la comunicación entre veterinarios y propietarios.</td><td>Plataforma que combina la administración de historiales clínicos, citas e inventario para optimizar la eficiencia en clínicas veterinarias.</td></tr>
+<tr><td valign="top"><b>Ventaja competitiva ¿Qué valor ofrece a los clientes?</b></td><td>Interfaz fácil de usar que simplifica la gestión de historiales, recordatorios e inventarios.</td><td>Administración completa de citas, historiales y facturación mediante una interfaz amigable.</td><td>Gestión móvil de citas e historiales médicos que optimiza la comunicación entre veterinarios y propietarios.</td><td>Plataforma integral para gestionar historiales, citas e inventario en clínicas veterinarias.</td></tr>
+<tr><td rowspan="2"><b>Perfil de Marketing</b></td><td valign="top"><b>Mercado objetivo</b></td><td>Clínicas veterinarias y dueños de mascotas</td><td>Clínicas veterinarias medianas y grandes</td><td>Propietarios de mascotas y veterinarios móviles</td><td>Clínicas veterinarias pequeñas y medianas</td></tr>
+<tr><td valign="top"><b>Estrategias de marketing</b></td><td>Redes sociales y asociaciones con clínicas.</td><td>Estrategias de marketing de contenido y seminarios web.</td><td>Redes sociales</td><td>Publicidad dirigida y promociones</td></tr>
+<tr><td rowspan="3"><b>Perfil de Producto</b></td><td valign="top"><b>Productos & Servicios</b></td><td>Administración de historiales clínicos, recordatorios e inventarios.</td><td>Gestión de citas, historiales clínicos y facturación</td><td>Aplicación móvil para gestionar citas e historiales médicos</td><td>Plataforma para administración de historiales, citas e inventario</td></tr>
+<tr><td valign="top"><b>Precios & Costos</b></td><td>Suscripción mensual con diferentes niveles</td><td>Licencia de software con tarifas anuales</td><td>Descarga gratuita con compras dentro de la app</td><td>Suscripción con tarifas basadas en el tamaño de la clínica</td></tr>
+<tr><td valign="top"><b>Canales de distribución (Web y/o Móvil)</b></td><td>Web y móvil</td><td>Web</td><td>Móvil (App stores)</td><td>Web</td></tr>
+<tr><td rowspan="5"><b>Análisis SWOT</b></td><td colspan="5" valign="top">Realice esto para su startup y sus competidores. Sus fortalezas deberían apoyar sus oportunidades y contribuir a lo que ustedes definen como su posible ventaja competitiva.</td></tr>
+<tr><td><b>Fortalezas</b></td><td>Interfaz intuitiva y fácil de usar; integración de múltiples funciones</td><td>Gestión integral y amigable; adaptado para clínicas medianas y grandes</td><td>Acceso móvil conveniente; mejora la comunicación con propietarios de mascotas</td><td>Plataforma integral para clínicas pequeñas y medianas; fácil de usar</td></tr>
+<tr><td><b>Debilidades</b></td><td>Dependencia de la adopción por parte de clínicas veterinarias</td><td>Costos potencialmente altos para pequeñas clínicas</td><td>Funcionalidades limitadas comparadas con plataformas completas</td><td>Limitado a clínicas de menor tamaño; menos atractivo para grandes clínicas</td></tr>
+<tr><td><b>Oportunidades</b></td><td>Expansión en el mercado de clínicas veterinarias pequeñas y medianas</td><td>Crecimiento en el segmento de clínicas grandes y asociaciones veterinarias</td><td>Expansión en el mercado de usuarios móviles y propietarios de mascotas</td><td>Penetración en el mercado de clínicas veterinarias pequeñas</td></tr>
+<tr><td><b>Amenazas</b></td><td>Competencia de otras plataformas con características similares</td><td>Competencia con soluciones de bajo costo o gratuitas</td><td>Alta competencia en aplicaciones móviles para la salud de mascotas</td><td>Competencia de soluciones más avanzadas para clínicas grandes</td></tr>
 </table>
 
-# Project Report Collaboration Insights
 
-# Contenido
-[Student Outcome](#student-outcome)
+### <a name="_toc175363805"></a><a name="_toc176478905"></a>**2.1.2. Estrategias y tácticas frente a competidores**
 
-[Capítulo I: Introducción](#capitulo-i-introducción)
-- [1.1. Startup Profile](#11-startup-profile)
-  - [1.1.1. Descripción de la Startup](#111-descripción-de-la-startup)
-  - [1.1.2. Perfiles de integrantes del equipo](#112-perfiles-de-integrantes-del-equipo)
-- [1.2. Solution Profile](#12-solution-profile)
-  - [1.2.1 Antecedentes y problemática](#121-antecedentes-y-problemática)
-  - [1.2.2 Lean UX Process](#122-lean-ux-process)
-    - [1.2.2.1. Lean UX Problem Statements](#1221-lean-ux-problem-statements)
-    - [1.2.2.2. Lean UX Assumptions](#1222-lean-ux-assumptions)
-    - [1.2.2.3. Lean UX Hypothesis Statements](#1223-lean-ux-hypothesis-statements)
-    - [1.2.2.4. Lean UX Canvas](#1224-lean-ux-canvas)
-- [1.3. Segmentos objetivo](#13-segmentos-objetivo)
+Estrategias: 
 
-[Capítulo II: Requirements Elicitation & Analysis](#capítulo-ii-requirements-elicitation--analysis)
-- [2.1. Competidores](#21-competidores)
-  - [2.1.1. Análisis competitivo](#211-análisis-competitivo)
-  - [2.1.2. Estrategias y tácticas frente a competidores](#212-estrategias-y-tácticas-frente-a-competidores)
-- [2.2. Entrevistas](#22-entrevistas)
-  - [2.2.1. Diseño de entrevistas](#221-diseño-de-entrevistas)
-  - [2.2.2. Registro de entrevistas](#222-registro-de-entrevistas)
-  - [2.2.3. Análisis de entrevistas](#223-análisis-de-entrevistas)
-- [2.3. Needfinding](#23-needfinding)
-  - [2.3.1. User Personas](#231-user-personas)
-  - [2.3.2. User Task Matrix](#232-user-task-matrix)
-  - [2.3.3. User Journey Mapping](#233-user-journey-mapping)
-  - [2.3.4. Empathy Mapping](#234-empathy-mapping)
-  - [2.3.5. As-is Scenario Mapping](#235-as-is-scenario-mapping)
-- [2.4. Ubiquitous Language](#24-ubiquitous-language)
+Para destacar en el mercado, Ez.vet se enfocará en ofrecer una interfaz excepcionalmente intuitiva y fácil de usar, diferenciándose de las soluciones más complejas y difíciles de manejar. Además, se distinguirá por su valor añadido al incluir características exclusivas, como la personalización de historiales clínicos y recordatorios adaptados a las necesidades particulares de cada clínica y propietario de mascotas.
 
-[Capítulo III: Requirements Specification](#capítulo-iii-requirements-specification)
-- [3.1. To-Be Scenario Mapping](#31-to-be-scenario-mapping)
-- [3.2. User Stories](#32-user-stories)
-- [3.3. Impact Mapping](#33-impact-mapping)
-- [3.4. Product Backlog](#34-product-backlog)
+Tácticas: 
 
-[Capítulo IV: Product Design](#capítulo-iv-product-design)
-- [4.1. Style Guidelines](#41-style-guidelines)
-  - [4.1.1. General Style Guidelines](#411-general-style-guidelines)
-  - [4.1.2. Web Style Guidelines](#412-web-style-guidelines)
-- [4.2. Information Architecture](#42-information-architecture)
-  - [4.2.1. Organization Systems](#421-organization-systems)
-  - [4.2.2. Labeling Systems](#422-labeling-systems)
-  - [4.2.3. SEO Tags and Meta Tag](#423-seo-tags-and-meta-tag)
-  - [4.2.4. Searching Systems](#424-searching-systems)
-  - [4.2.5. Navigation Systems](#425-navigation-systems)
-- [4.3. Landing Page UI Design](#43-landing-page-ui-design)
-  - [4.3.1. Landing Page Wireframe](#431-landing-page-wireframe)
-  - [4.3.2. Landing Page Mock-up](#432-landing-page-mock-up)
-- [4.4. Web Applications UX/UI Design](#44-web-applications-uxui-design)
-  - [4.4.1. Web Applications Wireframes](#411-general-style-guidelines)
-  - [4.4.2. Web Applications Wireflow Diagrams](#442-web-applications-wireflow-diagrams)
-  - [4.4.3. Web Applications Mock-ups](#443-web-applications-mock-ups)
-  - [4.4.4. Web Applications User Flow Diagrams](#444-web-applications-user-flow-diagrams)
-- [4.5. Web Applications Prototyping](#45-web-applications-prototyping)
-- [4.6. Domain-Driven Software Architecture](#46-domain-driven-software-architecture)
-  - [4.6.1. Software Architecture Context Diagram](#461-software-architecture-context-diagram)
-  - [4.6.2. Software Architecture Container Diagrams](#462-software-architecture-container-diagrams)
-  - [4.6.3. Software Architecture Components Diagrams](#463-software-architecture-components-diagrams)
-- [4.7. Software Object-Oriented Design](#47-software-object-oriented-design)
-  - [4.7.1. Class Diagrams](#471-class-diagrams)
-  - [4.7.2. Class Dictionary](#472-class-dictionary)
-- [4.8. Database Design](#48-database-design)
-  - [4.8.1. Database Diagram](#481-database-diagram)
+- Se llevarán a cabo demostraciones personalizadas en clínicas veterinarias para mostrar de forma práctica las ventajas de la plataforma. Asimismo, se ofrecerán períodos de prueba gratuita para que los usuarios puedan experimentar los beneficios de Ez.vet sin ningún compromiso.
 
-[Capítulo V: Product Implementation, Validation & Deployment](#capítulo-v-product-implementation-validation--deployment)
-- [5.1. Software Configuration Management](#51-software-configuration-management)
-  - [5.1.1. Software Development Environment Configuration](#511-software-development-environment-configuration)
-  - [5.1.2. Source Code Management](#512-source-code-management)
-  - [5.1.3. Source Code Style Guide & Conventions](#513-source-code-style-guide--conventions)
-  - [5.1.4. Software Deployment Configuration](#514-software-deployment-configuration)
-- [5.2. Landing Page, Services & Applications Implementation](#52-landing-page-services--applications-implementation)
-  - [5.2.X. Sprint n ](#52x-sprint)
-    - [5.2.X.1. Sprint Planning n](#52x1-sprint-planning-n)
-    - [5.2.X.2. Sprint Backlog n](#52x2-sprint-backlog-n)
-    - [5.2.X.3. Development Evidence for Sprint Review](#52x3-development-evidence-for-sprint-review)
-    - [5.2.X.4. Testing Suite Evidence for Sprint Review](#52x4-testing-suite-evidence-for-sprint-review)
-    - [5.2.X.5. Execution Evidence for Sprint Review](#52x5-execution-evidence-for-sprint-review)
-    - [5.2.X.6. Services Documentation Evidence for Sprint Review](#52x6-services-documentation-evidence-for-sprint-review)
-    - [5.2.X.7. Software Deployment Evidence for Sprint Review](#52x7-software-deployment-evidence-for-sprint-review)
-    - [5.2.X.8. Team Collaboration Insights during Sprint](#52x8-team-collaboration-insights-during-sprint)
-- [5.3. Validation Interviews](#53-validation-interviews)
-  - [5.3.1. Diseño de Entrevistas](#531-diseño-de-entrevistas)
-  - [5.3.2. Registro de Entrevistas](#532-registro-de-entrevistas)
-  - [5.3.3. Evaluaciones según heurísticas](#533-evaluaciones-según-heurísticas)
-- [5.4. Video About-the-Product](#54-video-about-the-product)
-
-[Conclusiones](#conclusiones)
-- [Conclusiones y recomendaciones](#conclusiones-y-recomendaciones)
-- [Video About-the-Team](#video-about-the-team)
-
-[Bibliografía](#bibliografía)
-
-[Anexos](#anexos)
-
-# Student Outcome
+- Se recogerán y publicarán testimonios y casos de éxito de usuarios satisfechos que hayan logrado mejoras significativas en la gestión veterinaria. Estos testimonios se emplearán en campañas de marketing y en el sitio web de la aplicación para fortalecer la credibilidad y atraer nuevos clientes.
 
 
-# Capítulo I: Introducción
-## 1.1. Startup Profile
-### 1.1.1. Descripción de la Startup
-### 1.1.2. Perfiles de integrantes del equipo
-## 1.2. Solution Profile
-### 1.2.1 Antecedentes y problemática
-### 1.2.2 Lean UX Process
-#### 1.2.2.1. Lean UX Problem Statements
-#### 1.2.2.2. Lean UX Assumptions
-#### 1.2.2.3. Lean UX Hypothesis Statements
-#### 1.2.2.4. Lean UX Canvas
-## 1.3. Segmentos objetivo
+1. ## <a name="_toc175363806"></a><a name="_toc176478906"></a>**Entrevistas**
+   1. ### <a name="_toc175363807"></a><a name="_toc176478907"></a>**Diseño de Entrevistas**
+      ***Segmento 1: Médicos Veterinarios***
 
-# Capítulo II: Requirements Elicitation & Analysis
-## 2.1. Competidores
-### 2.1.1. Análisis competitivo
-### 2.1.2. Estrategias y tácticas frente a competidores
-## 2.2. Entrevistas
-### 2.2.1. Diseño de entrevistas
-### 2.2.2. Registro de entrevistas
-### 2.2.3. Análisis de entrevistas
-## 2.3. Needfinding
-### 2.3.1. User Personas
-### 2.3.2. User Task Matrix
-### 2.3.3. User Journey Mapping
-### 2.3.4. Empathy Mapping
-### 2.3.5. As-is Scenario Mapping
-## 2.4. Ubiquitous Language
+1. ¿Conoces alguna aplicación de gestión veterinaria? ¿Cuál es?
+1. ¿Lo escogieron por alguna razón es especial?
+1. ¿Fue la primera aplicación que usaron?
+1. ¿Qué es lo que te gusta de esa aplicación?
+1. ¿Qué te disgusta de esa aplicación?
+1. ¿Qué sería una de las cosas que si o si cambiarias?
 
-# Capítulo III: Requirements Specification
-## 3.1. To-Be Scenario Mapping
-## 3.2. User Stories
-## 3.3. Impact Mapping
-## 3.4. Product Backlog
+***Segmento 2: Dueños de Mascotas***
 
-# Capítulo IV: Product Design
-## 4.1. Style Guidelines
-### 4.1.1. General Style Guidelines
-### 4.1.2. Web Style Guidelines
-## 4.2. Information Architecture
-### 4.2.1. Organization Systems
-### 4.2.2. Labeling Systems
-### 4.2.3. SEO Tags and Meta Tag
-### 4.2.4. Searching Systems
-### 4.2.5. Navigation Systems
-## 4.3. Landing Page UI Design
-### 4.3.1. Landing Page Wireframe
-### 4.3.2. Landing Page Mock-up
-## 4.4. Web Applications UX/UI Design
-### 4.4.1. Web Applications Wireframes
-### 4.4.2. Web Applications Wireflow Diagrams
-### 4.4.3. Web Applications Mock-ups
-### 4.4.4. Web Applications User Flow Diagrams
-## 4.5. Web Applications Prototyping
-## 4.6. Domain-Driven Software Architecture
-### 4.6.1. Software Architecture Context Diagram
-### 4.6.2. Software Architecture Container Diagrams
-### 4.6.3. Software Architecture Components Diagrams
-## 4.7. Software Object-Oriented Design
-### 4.7.1. Class Diagrams
-### 4.7.2. Class Dictionary
-## 4.8. Database Design
-## 4.8.1. Database Diagram
+1. ¿Con que frecuencia vas al veterinario?
+1. ¿Qué método usas para llevar el control de tu mascota?
+1. ¿Alguna vez perdiste los documentos?
+1. ¿En medio de algún tratamiento cambiaste de veterinario?
+1. ¿Qué opinas de tener la historia clínica en una aplicación?
+1. ¿Usarías una aplicación como la descrita?
+1. ### <a name="_toc175363808"></a><a name="_toc176478908"></a>**Registro de entrevistas**
+   ***Segmento 1: Médicos Veterinarios***
 
-# Capítulo V: Product Implementation, Validation & Deployment
-## 5.1. Software Configuration Management
-### 5.1.1. Software Development Environment Configuration
-### 5.1.2. Source Code Management
-### 5.1.3. Source Code Style Guide & Conventions
-### 5.1.4. Software Deployment Configuration
-## 5.2. Landing Page, Services & Applications Implementation
-### 5.2.X. Sprint 
-#### 5.2.X.1. Sprint Planning n
-#### 5.2.X.2. Sprint Backlog n
-#### 5.2.X.3. Development Evidence for Sprint Review
-#### 5.2.X.4. Testing Suite Evidence for Sprint Review
-#### 5.2.X.5. Execution Evidence for Sprint Review
-#### 5.2.X.6. Services Documentation Evidence for Sprint Review
-#### 5.2.X.7. Software Deployment Evidence for Sprint Review
-#### 5.2.X.8. Team Collaboration Insights during Sprint
-## 5.3. Validation Interviews
-### 5.3.1. Diseño de Entrevistas
-### 5.3.2. Registro de Entrevistas
-### 5.3.3. Evaluaciones según heurísticas
-# 5.4. Video About-the-Product
+   **Entrevistado N°1: Jasmin Flores**
 
-# Conclusiones
-## Conclusiones y recomendaciones
-## Video About-the-Team.
+- **Sexo: Femenino** 
+- **Edad: 26**
+- **Domicilio: San Miguel** 
 
-# Bibliografía
+**Entrevista:** 
 
-# Anexos
+- <a name="_hlk176441569"></a>**Link: <https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221a301_upc_edu_pe/EQ-ZYy2RvYpNgt1Qfy9tHTUByB1wTz3kGVrQscVWHWam9A?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=j1mdQ7>** 
+- **Momento en el que Inicia: 0:00 min**
+- **Duración: 4:49 min**
+
+**Resumen:**
+
+La doctora Jasmín nos comenta que en la veterinaria donde trabaja, solo tienen un usuario que se puede abrir en varios dispositivos para completar las historias clínicas. Lo que le agrada de esta aplicación es que está diseñada específicamente para el trabajo en veterinarias, con campos adaptados a cada especie o raza. Sin embargo, lo que no le gusta es que, aunque algunos campos no son obligatorios, tener que pasarlos para completar la historia clínica toma más tiempo del que desearía.
+
+![Captura de pantalla de computadora
+
+Descripción generada automáticamente](Aspose.Words.8040cd47-5364-497a-9bef-a305dfdefb66.003.png)
+
+**Entrevistado N°2: Erick Monzón**
+
+- **Sexo: Masculino** 
+- **Edad: 30**
+- **Domicilio: Magdalena del Mar** 
+
+**Entrevista:** 
+
+- **Link: <https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221a301_upc_edu_pe/EbCW9J6OzTFKoDAHzGbfWzEBpDcpUG7M16WiUuDkC7iPMA>** 
+- **Momento en el que Inicia: 0:00 min**
+- **Duración: 6:22 min**
+
+**Resumen:**
+
+El Doctor Erick nos comenta que en su trabajo utilizan VetPraxis, principalmente porque es una aplicación muy reconocida y muchas veterinarias la emplean. Sin embargo, señala que tiene ciertas deficiencias, especialmente en lo que respecta a la eficiencia. Una de las principales críticas que hace es la inclusión de numerosos campos obligatorios que considera innecesarios, como el teléfono de trabajo, RUC, enlaces a redes sociales como Facebook e Instagram, y otros detalles que realmente no son relevantes para la atención al cliente. Esto se traduce en un proceso de creación de historias clínicas que puede tomar entre 7 y 10 minutos, un tiempo excesivo, especialmente en situaciones de emergencia donde la rapidez es crucial. Erick enfatiza que uno de los cambios que realizaría de manera prioritaria sería la eliminación de estos campos superfluos, para agilizar el proceso y hacer la aplicación más eficiente.  
+
+![](Aspose.Words.8040cd47-5364-497a-9bef-a305dfdefb66.004.png)
+
+**Entrevistado N°3: Vanesa Gómez** 
+
+- **Sexo: Femenino**
+- **Edad: 25**
+- **Domicilio: Lince** 
+
+**Entrevista:** 
+
+- **Link: <https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221a301_upc_edu_pe/EYY7QpIHFxlDh0ksAmySO-kB1yHNDLGTJPHi61WTR0jlWg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=JeOE4m>** 
+- **Momento en el que Inicia:**
+- **Duración: 6:58 min**
+
+**Resumen:**
+
+La doctora Vanesa comenta que en su trabajo actual utilizan VetPraxis, principalmente porque es la aplicación más conocida entre las veterinarias. Sin embargo, en su trabajo anterior, usaban fichas en papel, que luego archivaban en un Excel donde guardaban el número de historia clínica y el nombre de la mascota para facilitar la búsqueda posterior. Al igual que el doctor Erick, Vanesa no está satisfecha con los campos innecesarios que VetPraxis requiere, ya que le toma entre 10 y 15 minutos crear una historia clínica, lo cual considera excesivo. En su anterior trabajo, también encontraba ineficiente el método físico, ya que la letra a veces no era legible o las historias se traspapelaban, lo que causaba molestias a los clientes. Vanesa cambiaría estos campos innecesarios que ralentizan el proceso de creación de historias clínicas en VetPraxis.
+
+![](Aspose.Words.8040cd47-5364-497a-9bef-a305dfdefb66.005.png)
+
+***Segmento 2: Dueños de Mascotas***
+
+**Entrevistado N°1: Sebastián Silva**
+
+- **Sexo: Masculino**
+- **Edad: 20**
+- **Domicilio: San Luis** 
+
+**Entrevista:** 
+
+- **Link: <https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221a301_upc_edu_pe/Ec1XInM48xNOvR2jbzHkwuABf9CG5aosdZClZOwqh0nyYw>** 
+- **Momento en el que Inicia: 0:00 min**
+- **Duración: 6:58 min**
+
+**Resumen:**
+**
+`	`Sebastián nos comenta que lleva a su mascota al veterinario entre una y dos veces al año, aunque si su gato presentara algún malestar, lo llevaría con mayor frecuencia. Con su perro, solía ir una vez a la semana debido a una infección en el oído. Sebastián mencionó que no recuerda dónde dejó la carpeta con toda la documentación médica de su mascota y que le gustaría tener una aplicación donde pudiera almacenar todo el historial médico de sus mascotas. De esta manera, podría actuar más rápidamente en caso de una emergencia, ya que tendría la información disponible en su celular. A pesar de esto, seguiría utilizando el formato físico como respaldo para no perder ningún registro de las atenciones a sus mascotas.
+
+![](Aspose.Words.8040cd47-5364-497a-9bef-a305dfdefb66.006.png)
+
+**Entrevistado N°2: Lucerito Guzmán**
+
+- **Sexo: Femenino** 
+- **Edad: 22 años**
+- **Domicilio: Callao**
+
+**Entrevista:** 
+
+- **Link: <a name="_hlk176441682"></a><https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221a301_upc_edu_pe/EQxyGm-xOy9Gixk9iwdU5-4B7_sjaOllyMTn6QX3f6py1Q?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=aOWtoD>** 
+- **Momento en el que Inicia: 0:00 min**
+- **Duración: 7:10 min**	
+
+**Resumen:**
+
+`	`Lucerito nos comenta que visita al veterinario con bastante regularidad: una vez cada tres meses por su gata pequeña y una vez al mes para bañar a su perra. Ha tenido problemas con la pérdida de cartillas de vacunación, exámenes y otros documentos relacionados con sus gatas adultas. Además, ha cambiado de veterinaria en dos o tres ocasiones por diferentes razones, lo que le ha generado confusión sobre los productos utilizados en el baño de su perra y la marca de las vacunas administradas. Por estos motivos, está totalmente a favor de utilizar una aplicación como ez.vet, ya que le facilitaría acceder a la historia clínica de sus mascotas.
+
+![](Aspose.Words.8040cd47-5364-497a-9bef-a305dfdefb66.007.png)
+
+**Entrevistado N°3:**
+
+- **Sexo:**
+- **Edad:**
+- **Domicilio:** 
+
+**Entrevista:** 
+
+- **Link:**
+- **Momento en el que Inicia:**
+- **Duración**
+
+**Resumen:**
+
+1. ### <a name="_toc175363809"></a><a name="_toc176478909"></a>**Análisis de Entrevistas**
+   ***Segmento 1: Médicos Veterinarios***
+
+- El 100% de los entrevistados utilizan software de gestión en sus clínicas veterinarias. Dos de ellos (66.7%) emplean VetPraxis debido a su reconocimiento en el mercado, mientras que uno (33.3%) utiliza otro software específico para veterinarias.
+- El 100% de los veterinarios expresaron preocupaciones sobre el tiempo que toma completar las historias clínicas. El 66.7% de ellos reportaron que el proceso puede tomar entre 7 y 15 minutos, lo cual consideran excesivo. Esto destaca la necesidad de soluciones más eficientes.
+- El 100% de los entrevistados mencionaron insatisfacción con la eficiencia del software que utilizan. Todos ellos señalaron la presencia de campos innecesarios que complican el proceso de creación de historias clínicas.
+- El 33.3% de los entrevistados aprecian que el software esté adaptado a las necesidades específicas de las veterinarias, con campos diseñados para cada especie o raza. Sin embargo, incluso en estos casos, la eficiencia sigue siendo una preocupación.
+
+***Segmento 2: Dueños de Mascotas***
+
+- El 50% de los entrevistados lleva a su mascota al veterinario entre una y dos veces al año, aunque la frecuencia podría aumentar si su mascota presentara algún problema de salud. El otro 50% visita al veterinario regularmente, con una frecuencia de una vez cada tres meses para su gata y una vez al mes para el baño de su perra.
+- El 100% de los entrevistados han enfrentado dificultades para localizar o mantener organizados los documentos médicos de sus mascotas. Uno de ellos no recuerda dónde guardó la carpeta con la documentación médica, mientras que el otro ha perdido cartillas de vacunación y exámenes en más de una ocasión.
+- El 100% de los entrevistados mostraron interés en utilizar una aplicación móvil para gestionar la información médica de sus mascotas. Consideran que tener acceso digital al historial médico facilitaría las visitas al veterinario y mejoraría la respuesta en caso de emergencias.
