@@ -12,7 +12,6 @@ Curso: Aplicaciones Web
 Sección: SI91
 
 Profesor: Alex Humberto Sánchez Ponce
-klkkk
 “Informe TB1"
 
 Startup: Ez.Vet
@@ -39,27 +38,3 @@ Grupo: 2
 </p>
 <br>
 
-<h1 align="center">Registro de versiones del Informe</h1>
-</br>
-<table>
-        <thead>
-            <tr>
-                <th>Versión</th>
-                <th>Fecha</th>
-                <th>Autor</th>
-                <th>Descripción de modificaciones</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <th>TB1</th>
-                <td>20/08/2024</td>
-                <td>
-                    <ul>
-          <li>integrante 1 </li>
-          <li>integrante 2</li>
-          <li>integrante 3</li>
-          <li>integrante 4</li>
-          <li>integrante 5</li>
-                    <ul>
-           </td>
