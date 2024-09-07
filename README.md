@@ -155,17 +155,22 @@ La doctora Vanesa comenta que en su trabajo actual utilizan VetPraxis, principal
 
 **Entrevistado N°3:**
 
-- **Sexo:**
-- **Edad:**
-- **Domicilio:** 
+- **Sexo: Femenino**
+- **Edad:19**
+- **Domicilio: Surco** 
 
 **Entrevista:** 
 
-- **Link:**
-- **Momento en el que Inicia:**
-- **Duración**
+- **Link: https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221a301_upc_edu_pe/EdLeJQNC0zlOtk2xPH342PgBlev9nHaaM7CVIZbloEn-cg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=3m9TdR**
+- **Momento en el que Inicia: 0:00 min**
+- **Duración: 2:34 min**
 
 **Resumen:**
+
+`	`Camila nos cuenta que tiene un gatito y lo lleva al veterinario cada seis meses para chequeos regulares. Si su mascota se enferma, acude con mayor frecuencia. Hasta ahora, no ha perdido su cartilla de vacunación, aunque reconoce que podría ocurrir en el futuro. Ella ha cambiado de veterinaria, y en ese proceso le pidieron nuevamente los exámenes que ya había realizado. Al no contar con los resultados, tuvo que repetirlos. Camila considera excelente la idea de una aplicación como la descrita, ya que le permitiría mantener todo más organizado y reducir las posibilidades de perder la cartilla o los exámenes.
+
+![](./feat_img/21.png)
+
 
 ### <a name="_toc175363809"></a><a name="_toc176478909"></a>**2.2.3. Análisis de Entrevistas**
    ***Segmento 1: Médicos Veterinarios***
