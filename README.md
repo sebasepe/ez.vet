@@ -596,18 +596,24 @@ Como norma general, se espera que todo el código desarrollado por los miembros 
 
 2. Agregar a participantes
 
-
-
 ## 5.2. Landing Page, Services & Applications Implementation
 
 ### 5.2.X. Sprint 
+
 #### 5.2.X.1. Sprint Planning n
+
 #### 5.2.X.2. Sprint Backlog n
+
 #### 5.2.X.3. Development Evidence for Sprint Review
+
 #### 5.2.X.4. Testing Suite Evidence for Sprint Review
+
 #### 5.2.X.5. Execution Evidence for Sprint Review
+
 #### 5.2.X.6. Services Documentation Evidence for Sprint Review
+
 #### 5.2.X.7. Software Deployment Evidence for Sprint Review
+
 #### 5.2.X.8. Team Collaboration Insights during Sprint
 Durante el transcurso de este sprint, todos participamos de forma activa y constante en la creación de las tareas asignadas. Presentamos evidencia de los progresos individuales:
 
