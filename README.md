@@ -6,7 +6,7 @@
 
 |<p>Alumno: Bastidas Bastidas, Diego Martin</p><p>Código: U20221A301</p><p>Carrera: Ingeniería de Software</p>||
 | - | :- |
-|![](Aspose.Words.8040cd47-5364-497a-9bef-a305dfdefb66.002.jpeg)|<p>Soy estudiante del 6to ciclo de la carrera de Ingeniería de Software. Decidí estudiar esta carrera porque desde pequeño me llamaba la atención el funcionamiento de una computadora y los procesos que conlleva ello. Me gusta practicar deportes de contacto, salir a pasear y sobre todo me encanta ser Groomer canino y trabajar con mascotas.</p><p></p>|
+||<p>Soy estudiante del 6to ciclo de la carrera de Ingeniería de Software. Decidí estudiar esta carrera porque desde pequeño me llamaba la atención el funcionamiento de una computadora y los procesos que conlleva ello. Me gusta practicar deportes de contacto, salir a pasear y sobre todo me encanta ser Groomer canino y trabajar con mascotas.</p><p></p>|
 |||
 |||
 |||
