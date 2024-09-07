@@ -183,8 +183,8 @@ La doctora Vanesa comenta que en su trabajo actual utilizan VetPraxis, principal
 - El 100% de los entrevistados han enfrentado dificultades para localizar o mantener organizados los documentos médicos de sus mascotas. Uno de ellos no recuerda dónde guardó la carpeta con la documentación médica, mientras que el otro ha perdido cartillas de vacunación y exámenes en más de una ocasión.
 - El 100% de los entrevistados mostraron interés en utilizar una aplicación móvil para gestionar la información médica de sus mascotas. Consideran que tener acceso digital al historial médico facilitaría las visitas al veterinario y mejoraría la respuesta en caso de emergencias.
 
-1. ## <a name="_toc175363810"></a><a name="_toc176478910"></a>**Needfinding**
-   1. ### <a name="_toc175363811"></a><a name="_toc176478911"></a>**User Personas**
+## <a name="_toc175363810"></a><a name="_toc176478910"></a>**2.3. Needfinding**
+   ### <a name="_toc175363811"></a><a name="_toc176478911"></a>**2.3.1. User Personas**
       ***Segmento 1: Médicos Veterinarios***
 
       ![Interfaz de usuario gráfica, Sitio web
@@ -196,7 +196,7 @@ Descripción generada automáticamente](Aspose.Words.8040cd47-5364-497a-9bef-a30
       ![Interfaz de usuario gráfica, Aplicación
 
 Descripción generada automáticamente](Aspose.Words.8040cd47-5364-497a-9bef-a305dfdefb66.009.png)
-   1. ### <a name="_toc175363813"></a><a name="_toc176478912"></a>**User Task Matrix**
+  ### <a name="_toc175363813"></a><a name="_toc176478912"></a>**2.3.2. User Task Matrix**
       ***Segmento 1: Médicos Veterinarios***
 
 |**Vanesa Gómez Suarez**|||
@@ -224,7 +224,7 @@ Descripción generada automáticamente](Aspose.Words.8040cd47-5364-497a-9bef-a30
 |Actuar rápidamente en emergencias médicas|Media|Alta|
 |Almacenar y respaldar información médica digital y física|Alta|Alta|
 
-1. ### <a name="_toc175363814"></a><a name="_toc176478913"></a>**User Journey Mapping**
+### <a name="_toc175363814"></a><a name="_toc176478913"></a>**2.3.3. User Journey Mapping**
    ***Segmento 1: Médicos Veterinarios***
 
    ![Interfaz de usuario gráfica, Aplicación
@@ -236,7 +236,7 @@ Descripción generada automáticamente con confianza media](Aspose.Words.8040cd4
 
    ![](Aspose.Words.8040cd47-5364-497a-9bef-a305dfdefb66.011.png)
 
-1. ### <a name="_toc175363815"></a><a name="_toc176478914"></a>**Empathy Mapping**
+### <a name="_toc175363815"></a><a name="_toc176478914"></a>**2.3.4. Empathy Mapping**
    ***Segmento 1: Médicos Veterinarios***
 
    ![Interfaz de usuario gráfica
@@ -249,7 +249,7 @@ Descripción generada automáticamente con confianza media](Aspose.Words.8040cd4
 
 Descripción generada automáticamente con confianza media](Aspose.Words.8040cd47-5364-497a-9bef-a305dfdefb66.013.png)
 
-1. ### <a name="_toc175363816"></a><a name="_toc176478915"></a>**As-is Scenario Mapping**
+### <a name="_toc175363816"></a><a name="_toc176478915"></a>**2.3.5. As-is Scenario Mapping**
    ***Segmento 1: Médicos Veterinarios***
 
    ![](Aspose.Words.8040cd47-5364-497a-9bef-a305dfdefb66.014.jpeg)
@@ -259,7 +259,7 @@ Descripción generada automáticamente con confianza media](Aspose.Words.8040cd4
    ![Interfaz de usuario gráfica
 
 Descripción generada automáticamente](Aspose.Words.8040cd47-5364-497a-9bef-a305dfdefb66.015.jpeg)
-1. ## <a name="_toc175363817"></a><a name="_toc176478916"></a>**Ubiquitous Language**
+## <a name="_toc175363817"></a><a name="_toc176478916"></a>**2.4. Ubiquitous Language**
 Este glosario proporciona definiciones claras y precisas de términos específicos al dominio veterinario, facilitando la comunicación entre todos los miembros del equipo y los stakeholders. El objetivo es evitar malentendidos y asegurar que todos compartan una comprensión común de los conceptos clave en el proyecto.
 
 **Términos del Glosario**
