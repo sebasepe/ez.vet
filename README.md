@@ -39,9 +39,9 @@ Tácticas:
 - Se recogerán y publicarán testimonios y casos de éxito de usuarios satisfechos que hayan logrado mejoras significativas en la gestión veterinaria. Estos testimonios se emplearán en campañas de marketing y en el sitio web de la aplicación para fortalecer la credibilidad y atraer nuevos clientes.
 
 
-1. ## <a name="_toc175363806"></a><a name="_toc176478906"></a>**Entrevistas**
-   1. ### <a name="_toc175363807"></a><a name="_toc176478907"></a>**Diseño de Entrevistas**
-      ***Segmento 1: Médicos Veterinarios***
+## <a name="_toc175363806"></a><a name="_toc176478906"></a>**2.2. Entrevistas**
+   ### <a name="_toc175363807"></a><a name="_toc176478907"></a>**2.2.1. Diseño de Entrevistas**
+  ***Segmento 1: Médicos Veterinarios***
 
 1. ¿Conoces alguna aplicación de gestión veterinaria? ¿Cuál es?
 1. ¿Lo escogieron por alguna razón es especial?
@@ -58,7 +58,7 @@ Tácticas:
 1. ¿En medio de algún tratamiento cambiaste de veterinario?
 1. ¿Qué opinas de tener la historia clínica en una aplicación?
 1. ¿Usarías una aplicación como la descrita?
-1. ### <a name="_toc175363808"></a><a name="_toc176478908"></a>**Registro de entrevistas**
+### <a name="_toc175363808"></a><a name="_toc176478908"></a>**2.2.2. Registro de entrevistas**
    ***Segmento 1: Médicos Veterinarios***
 
    **Entrevistado N°1: Jasmin Flores**
@@ -169,7 +169,7 @@ La doctora Vanesa comenta que en su trabajo actual utilizan VetPraxis, principal
 
 **Resumen:**
 
-1. ### <a name="_toc175363809"></a><a name="_toc176478909"></a>**Análisis de Entrevistas**
+### <a name="_toc175363809"></a><a name="_toc176478909"></a>**2.2.3. Análisis de Entrevistas**
    ***Segmento 1: Médicos Veterinarios***
 
 - El 100% de los entrevistados utilizan software de gestión en sus clínicas veterinarias. Dos de ellos (66.7%) emplean VetPraxis debido a su reconocimiento en el mercado, mientras que uno (33.3%) utiliza otro software específico para veterinarias.
@@ -182,3 +182,105 @@ La doctora Vanesa comenta que en su trabajo actual utilizan VetPraxis, principal
 - El 50% de los entrevistados lleva a su mascota al veterinario entre una y dos veces al año, aunque la frecuencia podría aumentar si su mascota presentara algún problema de salud. El otro 50% visita al veterinario regularmente, con una frecuencia de una vez cada tres meses para su gata y una vez al mes para el baño de su perra.
 - El 100% de los entrevistados han enfrentado dificultades para localizar o mantener organizados los documentos médicos de sus mascotas. Uno de ellos no recuerda dónde guardó la carpeta con la documentación médica, mientras que el otro ha perdido cartillas de vacunación y exámenes en más de una ocasión.
 - El 100% de los entrevistados mostraron interés en utilizar una aplicación móvil para gestionar la información médica de sus mascotas. Consideran que tener acceso digital al historial médico facilitaría las visitas al veterinario y mejoraría la respuesta en caso de emergencias.
+
+1. ## <a name="_toc175363810"></a><a name="_toc176478910"></a>**Needfinding**
+   1. ### <a name="_toc175363811"></a><a name="_toc176478911"></a>**User Personas**
+      ***Segmento 1: Médicos Veterinarios***
+
+      ![Interfaz de usuario gráfica, Sitio web
+
+Descripción generada automáticamente](Aspose.Words.8040cd47-5364-497a-9bef-a305dfdefb66.008.png)
+
+      ***Segmento 2: Dueños de Mascotas***
+
+      ![Interfaz de usuario gráfica, Aplicación
+
+Descripción generada automáticamente](Aspose.Words.8040cd47-5364-497a-9bef-a305dfdefb66.009.png)
+   1. ### <a name="_toc175363813"></a><a name="_toc176478912"></a>**User Task Matrix**
+      ***Segmento 1: Médicos Veterinarios***
+
+|**Vanesa Gómez Suarez**|||
+| :-: | :- | :- |
+|**Actividades**|**Frecuencia**|**Importancia**|
+|Crear y actualizar historias clínicas de pacientes	|Alta|Alta|
+|Completar campos necesarios en el software	|Alta|Alta|
+|Acceder y buscar historiales clínicos de mascotas	|Alta|Alta|
+|Programar y gestionar citas veterinarias	|Media|Alta|
+|Archivar y organizar documentación médica|Media|Media|
+|Resolver problemas de legibilidad y traspaleo de documentos|Media|Alta|
+|Mejorar la eficiencia del proceso de documentación|Media|Alta|
+|Atender a clientes de manera rápida y eficiente|Alta|Alta|
+
+***Segmento 2: Dueños de Mascotas***
+
+|**Lucerito Guzmán León**|||
+| :-: | :- | :- |
+|**Actividades**|**Frecuencia**|**Importancia**|
+|Llevar a sus mascotas al veterinario|Alta|Alta|
+|Programar y gestionar citas veterinarias|Alta|Alta|
+|Mantener y organizar documentación médica de sus mascotas|Alta|Alta|
+|Buscar historiales clínicos de sus mascotas|Media|Alta|
+|Cambiar de veterinaria cuando sea necesario|Baja|Media|
+|Actuar rápidamente en emergencias médicas|Media|Alta|
+|Almacenar y respaldar información médica digital y física|Alta|Alta|
+
+1. ### <a name="_toc175363814"></a><a name="_toc176478913"></a>**User Journey Mapping**
+   ***Segmento 1: Médicos Veterinarios***
+
+   ![Interfaz de usuario gráfica, Aplicación
+
+Descripción generada automáticamente con confianza media](Aspose.Words.8040cd47-5364-497a-9bef-a305dfdefb66.010.png)
+
+
+   ***Segmento 2: Dueños de mascotas***
+
+   ![](Aspose.Words.8040cd47-5364-497a-9bef-a305dfdefb66.011.png)
+
+1. ### <a name="_toc175363815"></a><a name="_toc176478914"></a>**Empathy Mapping**
+   ***Segmento 1: Médicos Veterinarios***
+
+   ![Interfaz de usuario gráfica
+
+Descripción generada automáticamente con confianza media](Aspose.Words.8040cd47-5364-497a-9bef-a305dfdefb66.012.png)
+
+   ***Segmento 2: Dueños de mascotas***
+
+   `	`![Interfaz de usuario gráfica
+
+Descripción generada automáticamente con confianza media](Aspose.Words.8040cd47-5364-497a-9bef-a305dfdefb66.013.png)
+
+1. ### <a name="_toc175363816"></a><a name="_toc176478915"></a>**As-is Scenario Mapping**
+   ***Segmento 1: Médicos Veterinarios***
+
+   ![](Aspose.Words.8040cd47-5364-497a-9bef-a305dfdefb66.014.jpeg)
+
+   ***Segmento 2: Dueños de Mascotas***
+
+   ![Interfaz de usuario gráfica
+
+Descripción generada automáticamente](Aspose.Words.8040cd47-5364-497a-9bef-a305dfdefb66.015.jpeg)
+1. ## <a name="_toc175363817"></a><a name="_toc176478916"></a>**Ubiquitous Language**
+Este glosario proporciona definiciones claras y precisas de términos específicos al dominio veterinario, facilitando la comunicación entre todos los miembros del equipo y los stakeholders. El objetivo es evitar malentendidos y asegurar que todos compartan una comprensión común de los conceptos clave en el proyecto.
+
+**Términos del Glosario**
+
+- **Vaccination Schedule (Calendario de Vacunación):**
+  Plan que establece las fechas y tipos de vacunas que debe recibir un animal para mantener su salud.
+- **Parasite Control (Control de Parásitos):**
+  Estrategias y tratamientos utilizados para prevenir o eliminar parásitos internos y externos en los animales.
+- **Nutritional Assessment (Evaluación Nutricional):**
+  Evaluación del estado nutricional de un paciente para ajustar su dieta según sus necesidades de salud.
+- **Behavioral Consultation (Consulta de Comportamiento):**
+  Sesión en la que el veterinario asesora sobre problemas de comportamiento en mascotas, ofreciendo estrategias para corregir conductas indeseadas.
+- **Spaying/Neutering (Esterilización/Castración):**
+  Procedimiento quirúrgico realizado para prevenir la reproducción en animales, eliminando los órganos reproductivos.
+- **Microchipping (Microchip):**
+  Técnica para insertar un microchip bajo la piel de una mascota, permitiendo su identificación en caso de pérdida.
+- **Health Certificate (Certificado de Salud):**
+  Documento oficial emitido por un veterinario que certifica la buena salud de un animal, requerido para viajes o adopciones.
+- **Euthanasia (Eutanasia):**
+  Procedimiento para poner fin de manera compasiva y sin dolor a la vida de un animal que sufre de una enfermedad terminal o grave.
+- **Dental Prophylaxis (Profilaxis Dental):**
+  Procedimiento de limpieza dental para prevenir enfermedades en los dientes y encías de los animales.
+- **Routine Check-up (Revisión de Rutina):**
+  Examen regular realizado por un veterinario para monitorear la salud general del animal y detectar problemas tempranos.
