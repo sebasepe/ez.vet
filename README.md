@@ -1,275 +1,171 @@
-<div align="center">
+# <a name="_toc175363794"></a><a name="_toc176478894"></a>**1. Capítulo I: Introducción**
+   ## <a name="_toc175363795"></a><a name="_toc176478895"></a>**1.1. Startup Profile**
+  ### <a name="_toc175363796"></a><a name="_toc176478896"></a>**1.1.1. Descripción de la Startup**
+"Ez.vet" es una plataforma completa diseñada para gestionar la administración veterinaria y visualizar historiales clínicos. Su principal propósito es simplificar y mejorar la gestión de diferentes aspectos del cuidado de mascotas, abarcando la administración de usuarios, clientes, productos, y servicios, así como la organización de los historiales clínicos. La meta es ofrecer una herramienta que ayude tanto a los dueños de mascotas como a los veterinarios en el manejo de la información y las tareas cotidianas.
+### <a name="_toc175363797"></a><a name="_toc176478897"></a>**1.1.2. Perfiles de integrantes del equipo**
 
-![image](https://github.com/PetPalORG/PetPal-Informe/assets/164519824/55b272a3-26f7-4c8b-9da7-39b023ceaeb5)
-</p> 
-# <span style="color:red">**Universidad Peruana de Ciencias Aplicadas**</span>
-## Carrera de Ingeniería de Software
+|<p>Alumno: Bastidas Bastidas, Diego Martin</p><p>Código: U20221A301</p><p>Carrera: Ingeniería de Software</p>||
+| - | :- |
+|![](Aspose.Words.8040cd47-5364-497a-9bef-a305dfdefb66.002.jpeg)|<p>Soy estudiante del 6to ciclo de la carrera de Ingeniería de Software. Decidí estudiar esta carrera porque desde pequeño me llamaba la atención el funcionamiento de una computadora y los procesos que conlleva ello. Me gusta practicar deportes de contacto, salir a pasear y sobre todo me encanta ser Groomer canino y trabajar con mascotas.</p><p></p>|
+|||
+|||
+|||
+|||
+| ||
 
-Ciclo: 2024 - 2
+## <a name="_toc175363798"></a><a name="_toc176478898"></a>**1.2. Solution Profile**
+Ez.vet es una aplicación creada específicamente para clínicas veterinarias, enfocada en la gestión interna de sus operaciones y en facilitar el acceso a la información clínica para los dueños de mascotas. Esta herramienta no solo permite a los veterinarios organizar y manejar de manera más eficiente los historiales clínicos de sus pacientes, sino que también ofrece funciones para gestionar recordatorios, controlar inventarios y realizar otras tareas cruciales para el funcionamiento de la clínica. 
 
-Curso: Desarrollo de Aplicaciones Open Source
+La interfaz de Ez.vet está diseñada para ser intuitiva y fácil de usar, lo que facilita a los veterinarios llevar un control preciso y detallado de cada aspecto de su práctica sin complicaciones. Además, la aplicación incluye una función adicional que permite publicar los historiales clínicos para que los dueños de las mascotas puedan acceder a ellos en cualquier momento. Esto asegura que los propietarios estén siempre informados sobre la salud de sus mascotas y puedan consultar los detalles médicos cuando lo deseen, mejorando la comunicación y la transparencia entre la clínica y sus clientes.
+### <a name="_toc175363799"></a><a name="_toc176478899"></a>**1.2.1. Antecedentes y problemática**
+**What**
 
-Sección: SW56
+`		`**¿Cuál es el problema?**
 
-Profesor: Efraín Ricardo Bautista Ubillús
+`	`El problema reside en la falta de una aplicación que sea intuitiva y sencilla de usar en el entorno veterinario, y que, al mismo tiempo, permita integrar y gestionar de manera eficiente los diversos aspectos que involucra esta práctica.
 
-“Informe TB1"
-ddsax
-Startup: LexMed
+**When**	
 
-Producto: 
+`		`**¿Cuándo sucede el problema?**
 
-Grupo: 1
+`	`El problema se presenta cuando las clínicas veterinarias no cuentan con una aplicación intuitiva y fácil de usar, lo que complica la integración y gestión eficiente de los distintos aspectos necesarios para su operación diaria.
 
-|          Integrantes          |      Código      |
-|:-----------------------------:|:-------------------:|
-|      |        |
-|   fg  fdf df df   |        |
-|De Las Casas Latour, Sebastián|u202213553|
-|Escobar Palomino , Sebastian Matias|u202125968|
-|Ticona Panduro, Estrella del Pilar| u202210659|
+**Where**
 
+`		`**¿Dónde sucede el problema?**
 
+`	`El problema se manifiesta en las clínicas veterinarias, donde la ausencia de una aplicación dificulta la integración y gestión de las diversas áreas esenciales para su funcionamiento. Esto no solo afecta el trabajo diario de los veterinarios, sino que también repercute en los dueños de mascotas, quienes requieren una forma sencilla de acceder a la información y los servicios relacionados con la salud de sus animales.
 
-</div>
+**Why**
 
+`		`**¿Por qué sucede el problema?**	
 
-<p align="center">
-    <strong>Agosto, 2024</strong>
-</p>
-<br>
+`	`El problema radica en la falta de aplicaciones específicamente diseñadas para satisfacer las complejas y variadas necesidades de una clínica veterinaria. Aunque existen muchas aplicaciones, estas no son lo suficientemente flexibles o completas para cubrir todos los aspectos necesarios, como la gestión de historiales clínicos, el control de inventarios y la comunicación con los dueños de las mascotas. Esto genera dificultades tanto para los veterinarios, quienes se ven obligados a recurrir a múltiples herramientas o procesos manuales, como para los propietarios de mascotas, que enfrentan limitaciones en el acceso a información relevante.
 
-<h1 align="center">Registro de versiones del Informe</h1>
-</br>
-<table>
-        <thead>
-            <tr>
-                <th>Versión</th>
-                <th>Fecha</th>
-                <th>Autor</th>
-                <th>Descripción de modificaciones</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <th>TB1</th>
-                <td>20/08/2024</td>
-                <td>
-                    <ul>
-          <li>integrante 1 </li>
-          <li>integrante 2</li>
-          <li>integrante 3</li>
-          <li>integrante 4</li>
-          <li>integrante 5</li>
-                    <ul>
-           </td>
-      <td>            
-             <ul>
-          <li>Capítulo I: Introducción</li>
-          <li>Capítulo II: Requirements Elicitation & Analysis</li>
-          <li>Capítulo III: Requirements Specification</li>
-          <li>Capítulo IV: Product Design</li>
-          <li>Avance del Capítulo V: Product Implementation, Validation & Deployment hasta el punto 5.2.1.8</li>
-          <li>Avance de Conclusiones, Bibliografía y Anexos</li>
-        </ul>
-      </td>
-  </tr>
-</tbody>
-</table>
+**Who**
 
-# Project Report Collaboration Insights
+`		`**¿Qué llevara a las personas a usar nuestro producto?**
 
-# Contenido
-[Student Outcome](#student-outcome)
+Las personas elegirán Ez.vet por la facilidad con la que podrán completar los campos requeridos, la amplia visibilidad que la aplicación tendrá en redes sociales, y, sobre todo, por lo sencillo que es llenar las historias clínicas sin la molestia de tener que cumplir con campos obligatorios.
 
-[Capítulo I: Introducción](#capitulo-i-introducción)
-- [1.1. Startup Profile](#11-startup-profile)
-  - [1.1.1. Descripción de la Startup](#111-descripción-de-la-startup)
-  - [1.1.2. Perfiles de integrantes del equipo](#112-perfiles-de-integrantes-del-equipo)
-- [1.2. Solution Profile](#12-solution-profile)
-  - [1.2.1 Antecedentes y problemática](#121-antecedentes-y-problemática)
-  - [1.2.2 Lean UX Process](#122-lean-ux-process)
-    - [1.2.2.1. Lean UX Problem Statements](#1221-lean-ux-problem-statements)
-    - [1.2.2.2. Lean UX Assumptions](#1222-lean-ux-assumptions)
-    - [1.2.2.3. Lean UX Hypothesis Statements](#1223-lean-ux-hypothesis-statements)
-    - [1.2.2.4. Lean UX Canvas](#1224-lean-ux-canvas)
-- [1.3. Segmentos objetivo](#13-segmentos-objetivo)
+**How**
 
-[Capítulo II: Requirements Elicitation & Analysis](#capítulo-ii-requirements-elicitation--analysis)
-- [2.1. Competidores](#21-competidores)
-  - [2.1.1. Análisis competitivo](#211-análisis-competitivo)
-  - [2.1.2. Estrategias y tácticas frente a competidores](#212-estrategias-y-tácticas-frente-a-competidores)
-- [2.2. Entrevistas](#22-entrevistas)
-  - [2.2.1. Diseño de entrevistas](#221-diseño-de-entrevistas)
-  - [2.2.2. Registro de entrevistas](#222-registro-de-entrevistas)
-  - [2.2.3. Análisis de entrevistas](#223-análisis-de-entrevistas)
-- [2.3. Needfinding](#23-needfinding)
-  - [2.3.1. User Personas](#231-user-personas)
-  - [2.3.2. User Task Matrix](#232-user-task-matrix)
-  - [2.3.3. User Journey Mapping](#233-user-journey-mapping)
-  - [2.3.4. Empathy Mapping](#234-empathy-mapping)
-  - [2.3.5. As-is Scenario Mapping](#235-as-is-scenario-mapping)
-- [2.4. Ubiquitous Language](#24-ubiquitous-language)
+`		`**¿En qué condiciones los clientes usaran nuestro producto?**
 
-[Capítulo III: Requirements Specification](#capítulo-iii-requirements-specification)
-- [3.1. To-Be Scenario Mapping](#31-to-be-scenario-mapping)
-- [3.2. User Stories](#32-user-stories)
-- [3.3. Impact Mapping](#33-impact-mapping)
-- [3.4. Product Backlog](#34-product-backlog)
+`	`Los clientes recurrirán a nuestro producto cuando necesiten una solución eficiente y fácil de usar para gestionar las operaciones de su clínica veterinaria. Esto abarca escenarios en los que buscan una herramienta que simplifique la administración de historiales clínicos, controle el inventario, y facilite la comunicación con los dueños de mascotas. Además, lo utilizarán cuando necesiten una aplicación que les permita acceder y compartir información médica de manera rápida y sin complicaciones, especialmente en un entorno donde el tiempo y la precisión son fundamentales.
 
-[Capítulo IV: Product Design](#capítulo-iv-product-design)
-- [4.1. Style Guidelines](#41-style-guidelines)
-  - [4.1.1. General Style Guidelines](#411-general-style-guidelines)
-  - [4.1.2. Web Style Guidelines](#412-web-style-guidelines)
-- [4.2. Information Architecture](#42-information-architecture)
-  - [4.2.1. Organization Systems](#421-organization-systems)
-  - [4.2.2. Labeling Systems](#422-labeling-systems)
-  - [4.2.3. SEO Tags and Meta Tag](#423-seo-tags-and-meta-tag)
-  - [4.2.4. Searching Systems](#424-searching-systems)
-  - [4.2.5. Navigation Systems](#425-navigation-systems)
-- [4.3. Landing Page UI Design](#43-landing-page-ui-design)
-  - [4.3.1. Landing Page Wireframe](#431-landing-page-wireframe)
-  - [4.3.2. Landing Page Mock-up](#432-landing-page-mock-up)
-- [4.4. Web Applications UX/UI Design](#44-web-applications-uxui-design)
-  - [4.4.1. Web Applications Wireframes](#411-general-style-guidelines)
-  - [4.4.2. Web Applications Wireflow Diagrams](#442-web-applications-wireflow-diagrams)
-  - [4.4.3. Web Applications Mock-ups](#443-web-applications-mock-ups)
-  - [4.4.4. Web Applications User Flow Diagrams](#444-web-applications-user-flow-diagrams)
-- [4.5. Web Applications Prototyping](#45-web-applications-prototyping)
-- [4.6. Domain-Driven Software Architecture](#46-domain-driven-software-architecture)
-  - [4.6.1. Software Architecture Context Diagram](#461-software-architecture-context-diagram)
-  - [4.6.2. Software Architecture Container Diagrams](#462-software-architecture-container-diagrams)
-  - [4.6.3. Software Architecture Components Diagrams](#463-software-architecture-components-diagrams)
-- [4.7. Software Object-Oriented Design](#47-software-object-oriented-design)
-  - [4.7.1. Class Diagrams](#471-class-diagrams)
-  - [4.7.2. Class Dictionary](#472-class-dictionary)
-- [4.8. Database Design](#48-database-design)
-  - [4.8.1. Database Diagram](#481-database-diagram)
-
-[Capítulo V: Product Implementation, Validation & Deployment](#capítulo-v-product-implementation-validation--deployment)
-- [5.1. Software Configuration Management](#51-software-configuration-management)
-  - [5.1.1. Software Development Environment Configuration](#511-software-development-environment-configuration)
-  - [5.1.2. Source Code Management](#512-source-code-management)
-  - [5.1.3. Source Code Style Guide & Conventions](#513-source-code-style-guide--conventions)
-  - [5.1.4. Software Deployment Configuration](#514-software-deployment-configuration)
-- [5.2. Landing Page, Services & Applications Implementation](#52-landing-page-services--applications-implementation)
-  - [5.2.X. Sprint n ](#52x-sprint)
-    - [5.2.X.1. Sprint Planning n](#52x1-sprint-planning-n)
-    - [5.2.X.2. Sprint Backlog n](#52x2-sprint-backlog-n)
-    - [5.2.X.3. Development Evidence for Sprint Review](#52x3-development-evidence-for-sprint-review)
-    - [5.2.X.4. Testing Suite Evidence for Sprint Review](#52x4-testing-suite-evidence-for-sprint-review)
-    - [5.2.X.5. Execution Evidence for Sprint Review](#52x5-execution-evidence-for-sprint-review)
-    - [5.2.X.6. Services Documentation Evidence for Sprint Review](#52x6-services-documentation-evidence-for-sprint-review)
-    - [5.2.X.7. Software Deployment Evidence for Sprint Review](#52x7-software-deployment-evidence-for-sprint-review)
-    - [5.2.X.8. Team Collaboration Insights during Sprint](#52x8-team-collaboration-insights-during-sprint)
-- [5.3. Validation Interviews](#53-validation-interviews)
-  - [5.3.1. Diseño de Entrevistas](#531-diseño-de-entrevistas)
-  - [5.3.2. Registro de Entrevistas](#532-registro-de-entrevistas)
-  - [5.3.3. Evaluaciones según heurísticas](#533-evaluaciones-según-heurísticas)
-- [5.4. Video About-the-Product](#54-video-about-the-product)
-
-[Conclusiones](#conclusiones)
-- [Conclusiones y recomendaciones](#conclusiones-y-recomendaciones)
-- [Video About-the-Team](#video-about-the-team)
-
-[Bibliografía](#bibliografía)
-
-[Anexos](#anexos)
-
-# Student Outcome
+**How Much**
 
 
-# Capítulo I: Introducción
-## 1.1. Startup Profile
-### 1.1.1. Descripción de la Startup
-### 1.1.2. Perfiles de integrantes del equipo
-## 1.2. Solution Profile
-### 1.2.1 Antecedentes y problemática
-### 1.2.2 Lean UX Process
-#### 1.2.2.1. Lean UX Problem Statements
-#### 1.2.2.2. Lean UX Assumptions
-#### 1.2.2.3. Lean UX Hypothesis Statements
-#### 1.2.2.4. Lean UX Canvas
-## 1.3. Segmentos objetivo
+### ` `**<a name="_toc175363800"></a><a name="_toc176478900"></a>1.2.2. Lean UX Process**
+  #### **1.2.2.1. Lean UX Problem Statements**
+La aplicación Ez.vet está diseñada para abordar la necesidad de una herramienta integral que simplifique la gestión diaria en las clínicas veterinarias. Con una interfaz intuitiva y fácil de usar, la aplicación busca eliminar las complicaciones y dificultades relacionadas con la administración de diversos aspectos de la práctica veterinaria en un solo lugar, permitiendo que tanto veterinarios como dueños de mascotas accedan de manera rápida y sencilla a la información relevante.
+#### **1.2.2.2. Lean UX Assumptions**
+Sobre el producto:
 
-# Capítulo II: Requirements Elicitation & Analysis
-## 2.1. Competidores
-### 2.1.1. Análisis competitivo
-### 2.1.2. Estrategias y tácticas frente a competidores
-## 2.2. Entrevistas
-### 2.2.1. Diseño de entrevistas
-### 2.2.2. Registro de entrevistas
-### 2.2.3. Análisis de entrevistas
-## 2.3. Needfinding
-### 2.3.1. User Personas
-### 2.3.2. User Task Matrix
-### 2.3.3. User Journey Mapping
-### 2.3.4. Empathy Mapping
-### 2.3.5. As-is Scenario Mapping
-## 2.4. Ubiquitous Language
-<img src="Tp/prueba.png" style="width: 50%;"/>
+1. ¿Quién es el usuario?
 
-# Capítulo III: Requirements Specification
-## 3.1. To-Be Scenario Mapping
-## 3.2. User Stories
-## 3.3. Impact Mapping
-## 3.4. Product Backlog
+   Los usuarios principales de la aplicación son, por un lado, las clínicas veterinarias, que utilizan la plataforma para gestionar sus operaciones diarias, y por otro lado, los dueños de mascotas, quienes acceden fácilmente a la información médica y los servicios de la clínica.
 
-# Capítulo IV: Product Design
-## 4.1. Style Guidelines
-### 4.1.1. General Style Guidelines
-### 4.1.2. Web Style Guidelines
-## 4.2. Information Architecture
-### 4.2.1. Organization Systems
-### 4.2.2. Labeling Systems
-### 4.2.3. SEO Tags and Meta Tag
-### 4.2.4. Searching Systems
-### 4.2.5. Navigation Systems
-## 4.3. Landing Page UI Design
-### 4.3.1. Landing Page Wireframe
-### 4.3.2. Landing Page Mock-up
-## 4.4. Web Applications UX/UI Design
-### 4.4.1. Web Applications Wireframes
-### 4.4.2. Web Applications Wireflow Diagrams
-### 4.4.3. Web Applications Mock-ups
-### 4.4.4. Web Applications User Flow Diagrams
-## 4.5. Web Applications Prototyping
-## 4.6. Domain-Driven Software Architecture
-### 4.6.1. Software Architecture Context Diagram
-### 4.6.2. Software Architecture Container Diagrams
-### 4.6.3. Software Architecture Components Diagrams
-## 4.7. Software Object-Oriented Design
-### 4.7.1. Class Diagrams
-### 4.7.2. Class Dictionary
-## 4.8. Database Design
-## 4.8.1. Database Diagram
+1. ¿Dónde encaja la aplicación en su vida?
 
-# Capítulo V: Product Implementation, Validation & Deployment
-## 5.1. Software Configuration Management
-### 5.1.1. Software Development Environment Configuration
-### 5.1.2. Source Code Management
-### 5.1.3. Source Code Style Guide & Conventions
-### 5.1.4. Software Deployment Configuration
-## 5.2. Landing Page, Services & Applications Implementation
-### 5.2.X. Sprint 
-#### 5.2.X.1. Sprint Planning n
-#### 5.2.X.2. Sprint Backlog n
-#### 5.2.X.3. Development Evidence for Sprint Review
-#### 5.2.X.4. Testing Suite Evidence for Sprint Review
-#### 5.2.X.5. Execution Evidence for Sprint Review
-#### 5.2.X.6. Services Documentation Evidence for Sprint Review
-#### 5.2.X.7. Software Deployment Evidence for Sprint Review
-#### 5.2.X.8. Team Collaboration Insights during Sprint
-## 5.3. Validation Interviews
-### 5.3.1. Diseño de Entrevistas
-### 5.3.2. Registro de Entrevistas
-### 5.3.3. Evaluaciones según heurísticas
-# 5.4. Video About-the-Product
+   La aplicación se incorpora en la rutina diaria de las clínicas veterinarias y en el cuidado diario de las mascotas, simplificando su tratamiento y atención.
 
-# Conclusiones
-## Conclusiones y recomendaciones
-## Video About-the-Team.
+1. ¿Qué problemas tienen nuestros usuarios y como se puede resolver?
 
-# Bibliografía
+   Los usuarios enfrentan la carencia de una aplicación especializada para la gestión completa de clínicas veterinarias y la falta de un portal accesible para consultar la historia clínica de una mascota. Nuestra aplicación aborda estos problemas al ofrecer una plataforma única que permite administrar todos los aspectos de la clínica y facilita el acceso a la información médica.
 
-# Anexos
+1. ¿Dónde y cuándo es usada nuestra aplicación?
+
+   La aplicación se emplea principalmente en clínicas veterinarias. Los momentos clave para su uso incluyen durante las consultas veterinarias y cuando los dueños de mascotas optan por cambiar de veterinario y necesitan transferir el historial clínico o el registro de vacunas a una nueva clínica.
+
+1. ¿Qué características son importantes?
+
+   Las características clave abarcan una interfaz intuitiva que funcione en dispositivos móviles, computadoras y laptops. También es fundamental eliminar campos innecesarios u obligatorios que puedan complicar el proceso de registro.
+
+1. ¿Cómo debe verse nuestra aplicación y como debe comportarse?
+
+   Las características principales incluyen una interfaz fácil de usar en dispositivos móviles, computadoras y laptops. Además, es esencial eliminar campos innecesarios o obligatorios que puedan complicar el proceso de registro.
+
+   1. #### **Lean UX Hypothesis Statements**
+
+**Creemos** que si diseñamos una aplicación intuitiva que permita a los veterinarios gestionar historiales clínicos y recordatorios de manera eficiente
+
+**Sabremos** que hemos tenido éxito cuando observemos un aumento en la eficiencia operativa y una reducción en el tiempo dedicado a tareas administrativas en las clínicas veterinarias
+
+**Cuando** las clínicas adopten nuestra aplicación y reporten mejoras en su flujo de trabajo diario, habremos validado nuestra hipótesis.
+
+**Creemos** que al ofrecer una plataforma que facilite el acceso a la historia clínica de las mascotas para los dueños
+
+**Sabremos** que nuestra solución es efectiva cuando recibamos comentarios positivos de los usuarios sobre la facilidad de acceso y la utilidad de la información médica compartida
+
+**Cuando** los dueños de mascotas utilicen la aplicación para consultar y manejar la salud de sus animales sin problemas, habremos confirmado que estamos resolviendo una necesidad real
+
+**Creemos** que si eliminamos los campos obligatorios innecesarios y simplificamos el proceso de registro en la aplicación
+
+**Sabremos** que hemos logrado nuestro objetivo cuando los usuarios experimenten una mayor satisfacción y una reducción en los errores de entrada de datos
+
+**Cuando** tanto veterinarios como propietarios de mascotas reporten una experiencia de usuario fluida y sin frustraciones, habremos validado que nuestra aplicación cumple con las expectativas de simplicidad y funcionalidad.
+
+1. #### **Lean UX Canvas**
+
+
+Problem Statement:
+
+`   `- Qué: Falta de una aplicación intuitiva para gestionar las diversas operaciones de las clínicas veterinarias.
+
+`   `- Cuándo: Cuando las clínicas veterinarias carecen de una herramienta que integre y gestione eficientemente las áreas esenciales de su operación.
+
+`   `- Dónde: Clínicas veterinarias que requieren una solución centralizada.
+
+`   `- Por qué: Las aplicaciones existentes no son lo suficientemente flexibles para cubrir todas las necesidades como la gestión de historiales clínicos, control de inventarios y comunicación con los dueños de mascotas.
+
+Assumptions
+
+`   `- Los usuarios principales son las clínicas veterinarias y los dueños de mascotas.
+
+`   `- La aplicación se utiliza en la rutina diaria de las clínicas para gestionar operaciones y facilitar el acceso a la información por parte de los dueños.
+
+`   `- Los problemas clave que enfrenta el usuario incluyen la falta de una plataforma integrada y la dificultad de acceder a información clínica.
+
+Hypothesis
+
+`   `- Creemos que diseñar una aplicación intuitiva que permita a los veterinarios gestionar historiales clínicos y recordatorios aumentará la eficiencia operativa y reducirá el tiempo dedicado a tareas administrativas.
+
+`   `- Sabremos que hemos tenido éxito cuando observemos mejoras en el flujo de trabajo diario de las clínicas y comentarios positivos de los usuarios.
+
+Users & Customers
+
+`   `- Segmento 1: Clínicas veterinarias que buscan optimizar su gestión operativa.
+
+`   `- Segmento 2: Dueños de mascotas que necesitan acceso rápido y eficiente a la información médica de sus mascotas.
+
+User Benefits
+
+`   `- Simplificación y centralización de la gestión clínica.
+
+`   `- Acceso fácil y rápido a la información de salud de las mascotas.
+
+Business Outcomes
+
+`   `- Mayor confianza en la gestión clínica.
+
+`   `- Reducción de errores y tiempos de espera en la administración.
+
+What's the most important thing we need to learn first?
+
+`   `- Validar que la aplicación mejora la eficiencia y satisface las necesidades de los usuarios (clínicas y dueños de mascotas).
+
+What's the least amount of work we need to do to learn the next most important thing?
+
+`   `- Realizar encuestas y pruebas de uso con clínicas veterinarias y dueños de mascotas para obtener retroalimentación temprana.
+1. ## <a name="_toc175363801"></a><a name="_toc176478901"></a>**Segmentos Objetivos**
+   ***Segmentos Objetivo 1 – Clínicas Veterinarias***
+
+   Este segmento está compuesto por clínicas veterinarias de todos los tamaños, desde pequeñas prácticas hasta grandes centros veterinarios con múltiples especialistas. Las clínicas veterinarias modernas enfrentan la necesidad de mejorar la eficiencia en la gestión de sus operaciones diarias, ya que suelen manejar grandes volúmenes de información médica de distintas mascotas, además de gestionar inventarios, citas y relaciones con los dueños de las mascotas.
+
+   Actualmente, muchas clínicas siguen utilizando métodos manuales, hojas de cálculo o sistemas de gestión que no están completamente adaptados a las necesidades del sector veterinario. Esto genera ineficiencias operativas que afectan la productividad del personal y la experiencia de los clientes, incrementando el tiempo de espera y los errores en la documentación.
+
+   ***Segmentos Objetivo 2 – Dueño de Mascotas*** 
+
+   Este segmento está formado por dueños de mascotas que buscan soluciones fáciles y convenientes para gestionar la salud de sus animales. Muchos de ellos son propietarios jóvenes y tecnológicos que ya están acostumbrados a utilizar aplicaciones móviles para gestionar varios aspectos de su vida diaria, y ven con buenos ojos el uso de herramientas digitales para el cuidado de sus mascotas. Sin embargo, también incluye a dueños de mascotas que pueden no estar tan familiarizados con la tecnología pero que buscan una forma más sencilla de gestionar toda la información relacionada con la salud de sus animales.
