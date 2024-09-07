@@ -35,6 +35,8 @@ El diagrama de contexto presenta una visión global de ez.vet, destacando las pr
 Este diagrama profundiza en la API Application, mostrando sus diferentes Bounded Contexts. Cada contexto delimitado representa un área funcional del sistema, con responsabilidades claras y separadas. Proporciona una vista más detallada de cómo se organiza la lógica de negocio dentro de la aplicación y cómo los distintos módulos interactúan entre sí para cumplir con los requisitos funcionales del sistema.
 ## 4.7. Software Object-Oriented Design
 ### 4.7.1. Class Diagrams
+el diagrama de clases se realizó con la ayuda de la herramienta LucidChart
+link: <https://acortar.link/hZI08C>
 ### 4.7.2. Class Dictionary
 ## 4.8. Database Design
 ## 4.8.1. Database Diagram
