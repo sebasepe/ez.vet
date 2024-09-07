@@ -239,11 +239,11 @@ La doctora Vanesa comenta que en su trabajo actual utilizan VetPraxis, principal
 ### <a name="_toc175363816"></a><a name="_toc176478915"></a>**2.3.5. As-is Scenario Mapping**
    ***Segmento 1: Médicos Veterinarios***
 
-   ![](./feat_img/19.png)
+   ![](./feat_img/19.jpeg)
 
    ***Segmento 2: Dueños de Mascotas***
 
-   ![](./feat_img/20.png)
+   ![](./feat_img/20.jpeg)
 ## <a name="_toc175363817"></a><a name="_toc176478916"></a>**2.4. Ubiquitous Language**
 Este glosario proporciona definiciones claras y precisas de términos específicos al dominio veterinario, facilitando la comunicación entre todos los miembros del equipo y los stakeholders. El objetivo es evitar malentendidos y asegurar que todos compartan una comprensión común de los conceptos clave en el proyecto.
 
