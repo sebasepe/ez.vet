@@ -4,14 +4,15 @@
 "Ez.vet" es una plataforma completa diseñada para gestionar la administración veterinaria y visualizar historiales clínicos. Su principal propósito es simplificar y mejorar la gestión de diferentes aspectos del cuidado de mascotas, abarcando la administración de usuarios, clientes, productos, y servicios, así como la organización de los historiales clínicos. La meta es ofrecer una herramienta que ayude tanto a los dueños de mascotas como a los veterinarios en el manejo de la información y las tareas cotidianas.
 ### <a name="_toc175363797"></a><a name="_toc176478897"></a>**1.1.2. Perfiles de integrantes del equipo**
 
-|<p>Alumno: Bastidas Bastidas, Diego Martin</p><p>Código: U20221A301</p><p>Carrera: Ingeniería de Software</p>||
-| - | :- |
-|![](Aspose.Words.8040cd47-5364-497a-9bef-a305dfdefb66.002.jpeg)|<p>Soy estudiante del 6to ciclo de la carrera de Ingeniería de Software. Decidí estudiar esta carrera porque desde pequeño me llamaba la atención el funcionamiento de una computadora y los procesos que conlleva ello. Me gusta practicar deportes de contacto, salir a pasear y sobre todo me encanta ser Groomer canino y trabajar con mascotas.</p><p></p>|
-|||
-|||
-|||
-|||
-| ||
+|                    Photo                        |                                                                                                                                                                                                                                                                                                    Description                                                                                                                                                                                                                                                                                                    |
+| :------------------------------------------------: | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
+| ![Diego](./assets/chapter01/Diegopfp.jpeg) |                                                                         Soy estudiante del 6to ciclo de la carrera de Ingeniería de Software. Decidí estudiar esta carrera porque desde pequeño me llamaba la atención el funcionamiento de una computadora y los procesos que conlleva. Me gusta practicar deportes de contacto, salir a pasear y sobre todo me encanta ser Groomer canino y trabajar con mascotas.                                                                                                                         |
+| ![Johan](./assets/chapter01/Ariopfp.jpg)  | Redactar.                                                                         |
+| ![Sebastian_De_Las_Casas](./assets/chapter01/Josepfp.png)  | Redactar. |
+|  ![Sebastian_Escobar](./assets/chapter01/Davidpfp.jpeg)  |                                                                                                                              Redactar.                                                                                                                              |
+|    ![Estrella](./assets/chapter01/Sebastianpfp.png)    |                                                                                                                                                                                                 Redactar.                                                                                                                                                                                                 |
+
+
 
 ## <a name="_toc175363798"></a><a name="_toc176478898"></a>**1.2. Solution Profile**
 Ez.vet es una aplicación creada específicamente para clínicas veterinarias, enfocada en la gestión interna de sus operaciones y en facilitar el acceso a la información clínica para los dueños de mascotas. Esta herramienta no solo permite a los veterinarios organizar y manejar de manera más eficiente los historiales clínicos de sus pacientes, sino que también ofrece funciones para gestionar recordatorios, controlar inventarios y realizar otras tareas cruciales para el funcionamiento de la clínica. 
