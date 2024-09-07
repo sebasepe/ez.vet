@@ -57,6 +57,7 @@ Las personas elegirán Ez.vet por la facilidad con la que podrán completar los 
 `	`Los clientes recurrirán a nuestro producto cuando necesiten una solución eficiente y fácil de usar para gestionar las operaciones de su clínica veterinaria. Esto abarca escenarios en los que buscan una herramienta que simplifique la administración de historiales clínicos, controle el inventario, y facilite la comunicación con los dueños de mascotas. Además, lo utilizarán cuando necesiten una aplicación que les permita acceder y compartir información médica de manera rápida y sin complicaciones, especialmente en un entorno donde el tiempo y la precisión son fundamentales.
 
 **How Much**
+` `Los clientes recurrirán a nuestro producto cuando necesiten una solución eficiente y fácil de usar para gestionar las operaciones de su clínica veterinaria. Esto abarca escenarios en los que buscan una herramienta que simplifique la administración de historiales clínicos, controle el inventario y facilite la comunicación con los dueños de mascotas. Además, lo utilizarán cuando necesiten una aplicación que les permita acceder y compartir información médica de manera rápida y sin complicaciones, especialmente en un entorno donde el tiempo y la precisión son fundamentales.
 
 
 ### ` `**<a name="_toc175363800"></a><a name="_toc176478900"></a>1.2.2. Lean UX Process**
