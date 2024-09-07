@@ -1,40 +1,57 @@
-<div align="center">
+# COURSE PROJECT
 
-![image](https://github.com/PetPalORG/PetPal-Informe/assets/164519824/55b272a3-26f7-4c8b-9da7-39b023ceaeb5)
-</p> 
-# <span style="color:red">**Universidad Peruana de Ciencias Aplicadas**</span>
-## Carrera de Ingeniería de Software
-
-Ciclo: 2024 - 2
-
-Curso: Aplicaciones Web
-
-Sección: SI91
-
-Profesor: Alex Humberto Sánchez Ponce
-“Informe TB1"
-
-Startup: Ez.Vet
-
-Producto: 
-
-Grupo: 2
-
-|          Integrantes          |      Código      |
-|:-----------------------------:|:-------------------:|
-|      |        |
-|     |        |
-|     |       |
-|||
-|Ticona Panduro, Estrella del Pilar| u202210659|
-
-
-
-</div>
-
+---
 
 <p align="center">
-    <strong>Agosto, 2024</strong>
+    <strong>Universidad Peruana de Ciencias Aplicadas (UPC)</strong><br>    
+    <img src="https://upload.wikimedia.org/wikipedia/commons/f/fc/UPC_logo_transparente.png"></img><br>
+    <strong>Carrera de Ingeniería de Software - Ciclo V</strong><br><br>
+    <strong>Desarrollo de Aplicaciones Open Source - SI729</strong><br>
+    <br><strong>Profesor: Alex Humberto Sánchez Ponce</strong><br>
+    <br><strong><b>INFORME DEL TRABAJO FINAL</strong></b><br>
 </p>
+
+<p align="center">
+    <strong>Startup del Proyecto: VetSolution</strong><br>
+    <strong>Producto: "ez.vet"</strong><br>
+</p>
+
+<div>
+    <h3 align="center">Team Members:</h3>
+</div>
+
+<div>
+    <table align="center">
+        <tr>
+            <th style="text-align:center;">Member</th>
+            <th style="text-align:center;">Code</th>
+        </tr>
+        <tr>
+            <td>Bastidas Bastidas, Diego Martin</td>
+            <td>U20221A301</td>
+        </tr>
+        <tr>
+            <td>Chavez Bottger Salazar, Johan Karl</td>
+            <td>U202210735</td>
+        </tr>
+        <tr>
+            <td>De Las Casas Latour, Sebastián</td>
+            <td>U202213553</td>
+        </tr>
+        <tr>
+            <td>Escobar Palomino , Sebastian Matias</td>
+            <td>u202125968</td>
+        </tr>
+        <tr>
+            <td>Ticona Panduro, Estrella del Pilar</td>
+            <td>U202210659</td>
+        </tr>
+    </table>
+    </div>
+</body>
+
+<p align="center">
+<br><strong>2024-02</strong></p>
 <br>
 
+---
