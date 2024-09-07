@@ -77,9 +77,7 @@ Tácticas:
 
 La doctora Jasmín nos comenta que en la veterinaria donde trabaja, solo tienen un usuario que se puede abrir en varios dispositivos para completar las historias clínicas. Lo que le agrada de esta aplicación es que está diseñada específicamente para el trabajo en veterinarias, con campos adaptados a cada especie o raza. Sin embargo, lo que no le gusta es que, aunque algunos campos no son obligatorios, tener que pasarlos para completar la historia clínica toma más tiempo del que desearía.
 
-![Captura de pantalla de computadora
-
-Descripción generada automáticamente](Aspose.Words.8040cd47-5364-497a-9bef-a305dfdefb66.003.png)
+![](./feat_img/7.png)
 
 **Entrevistado N°2: Erick Monzón**
 
@@ -97,7 +95,7 @@ Descripción generada automáticamente](Aspose.Words.8040cd47-5364-497a-9bef-a30
 
 El Doctor Erick nos comenta que en su trabajo utilizan VetPraxis, principalmente porque es una aplicación muy reconocida y muchas veterinarias la emplean. Sin embargo, señala que tiene ciertas deficiencias, especialmente en lo que respecta a la eficiencia. Una de las principales críticas que hace es la inclusión de numerosos campos obligatorios que considera innecesarios, como el teléfono de trabajo, RUC, enlaces a redes sociales como Facebook e Instagram, y otros detalles que realmente no son relevantes para la atención al cliente. Esto se traduce en un proceso de creación de historias clínicas que puede tomar entre 7 y 10 minutos, un tiempo excesivo, especialmente en situaciones de emergencia donde la rapidez es crucial. Erick enfatiza que uno de los cambios que realizaría de manera prioritaria sería la eliminación de estos campos superfluos, para agilizar el proceso y hacer la aplicación más eficiente.  
 
-![](Aspose.Words.8040cd47-5364-497a-9bef-a305dfdefb66.004.png)
+![](./feat_img/8.png)
 
 **Entrevistado N°3: Vanesa Gómez** 
 
@@ -115,7 +113,7 @@ El Doctor Erick nos comenta que en su trabajo utilizan VetPraxis, principalmente
 
 La doctora Vanesa comenta que en su trabajo actual utilizan VetPraxis, principalmente porque es la aplicación más conocida entre las veterinarias. Sin embargo, en su trabajo anterior, usaban fichas en papel, que luego archivaban en un Excel donde guardaban el número de historia clínica y el nombre de la mascota para facilitar la búsqueda posterior. Al igual que el doctor Erick, Vanesa no está satisfecha con los campos innecesarios que VetPraxis requiere, ya que le toma entre 10 y 15 minutos crear una historia clínica, lo cual considera excesivo. En su anterior trabajo, también encontraba ineficiente el método físico, ya que la letra a veces no era legible o las historias se traspapelaban, lo que causaba molestias a los clientes. Vanesa cambiaría estos campos innecesarios que ralentizan el proceso de creación de historias clínicas en VetPraxis.
 
-![](Aspose.Words.8040cd47-5364-497a-9bef-a305dfdefb66.005.png)
+![](./feat_img/9.png)
 
 ***Segmento 2: Dueños de Mascotas***
 
@@ -132,10 +130,10 @@ La doctora Vanesa comenta que en su trabajo actual utilizan VetPraxis, principal
 - **Duración: 6:58 min**
 
 **Resumen:**
-**
+
 `	`Sebastián nos comenta que lleva a su mascota al veterinario entre una y dos veces al año, aunque si su gato presentara algún malestar, lo llevaría con mayor frecuencia. Con su perro, solía ir una vez a la semana debido a una infección en el oído. Sebastián mencionó que no recuerda dónde dejó la carpeta con toda la documentación médica de su mascota y que le gustaría tener una aplicación donde pudiera almacenar todo el historial médico de sus mascotas. De esta manera, podría actuar más rápidamente en caso de una emergencia, ya que tendría la información disponible en su celular. A pesar de esto, seguiría utilizando el formato físico como respaldo para no perder ningún registro de las atenciones a sus mascotas.
 
-![](Aspose.Words.8040cd47-5364-497a-9bef-a305dfdefb66.006.png)
+![](./feat_img/10.png)
 
 **Entrevistado N°2: Lucerito Guzmán**
 
