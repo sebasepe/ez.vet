@@ -1,275 +1,106 @@
-<div align="center">
+# <a name="_toc176478917"></a><a name="_hlk176118348"></a>**3. Capítulo III: Requirements Specification**
+   ## <a name="_toc176478918"></a>**3.1. To-Be Scenario Mapping**
+   ## <a name="_toc176169123"></a><a name="_toc176478919"></a>**3.2. User Stories**
 
-![image](https://github.com/PetPalORG/PetPal-Informe/assets/164519824/55b272a3-26f7-4c8b-9da7-39b023ceaeb5)
-</p> 
-# <span style="color:red">**Universidad Peruana de Ciencias Aplicadas**</span>
-## Carrera de Ingeniería de Software
+|<p>**Epic / Story**</p><p>**ID**</p>|**Título**|**Descripción**|<p>**Criterios de**</p><p>**Aceptación**</p>|<p>**Relacionado**</p><p>**con (Epic ID)**</p>|
+| :-: | :-: | :-: | :-: | :-: |
+|**EP001**|Registro de Usuario|Como usuario nuevo, deseo registrarme en la plataforma para acceder a las funcionalidades del sistema|<p>**Escenario 1:**<br>**Dado** que soy un usuario nuevo,<br>**Cuando** ingreso mis datos correctos,<br>**Entonces** el sistema debería registrarme y enviarme un correo de confirmación.</p><p></p>|N/A|
+|**EP002**|Gestión de Mascotas|Como usuario, deseo gestionar las mascotas bajo mi cuidado para mantener su información actualizada|**Escenario 1:**<br>**Dado** que soy un usuario registrado,<br>**Cuando** añado una nueva mascota,<br>**Entonces** debería poder guardar sus detalles y ver la información en mi perfil.|N/A|
+|**EP003**|Notificaciones|Como usuario, deseo recibir notificaciones para estar al tanto de eventos importantes|<p>**Escenario 1:**<br>**Dado** que soy un usuario registrado,<br>**Cuando** se acerca una cita programada,<br>**Entonces** debería recibir una notificación de recordatorio.</p><p></p>|N/A|
+|**EP004**|Gestión de Perfil|Como usuario, deseo gestionar mi perfil para mantener mi información personal actualizada|<p>**Escenario 1:**<br>**Dado** que soy un usuario registrado,<br>**Cuando** edito mis datos personales,<br>**Entonces** debería poder actualizar y guardar los cambios.</p><p></p>|N/A|
+|**EP005**|Administración del Backend|Como desarrollador, deseo administrar el backend del sistema para garantizar el correcto funcionamiento|<p>**Escenario 1:**<br>**Dado** que soy un desarrollador,<br>**Cuando** realizo un cambio en la base de datos,<br>**Entonces** debería verificar que todas las dependencias se actualicen correctamente.</p><p></p>|N/A|
+|**US001**|Inicio de Sesión|Como usuario registrado, deseo iniciar sesión para acceder a mi cuenta|<p>**Escenario 1:**<br>**Dado** que soy un usuario registrado,<br>**Cuando** ingreso mis credenciales correctas,<br>**Entonces** debería acceder a mi cuenta.</p><p>**Escenario 2:**<br>**Dado** que soy un usuario registrado,<br>**Cuando** ingreso credenciales incorrectas,<br>**Entonces** debería ver un mensaje de error indicando credenciales inválidas.</p>|EP001|
+|**US002**|Recuperación de Contraseña|Como usuario, deseo recuperar mi contraseña para acceder a mi cuenta si la olvido|<p>**Escenario 1:**<br>**Dado** que olvidé mi contraseña,<br>**Cuando** ingreso mi correo registrado,<br>**Entonces** debería recibir un correo con un enlace para restablecerla.</p><p>**Escenario 2:**<br>**Dado** que ingresé un correo no registrado,<br>**Cuando** intento recuperar mi contraseña,<br>**Entonces** debería ver un mensaje de error indicando que el correo no existe.</p>|EP001|
+|**US003**|Visualización de Historia Clínica|Como usuario, deseo visualizar la historia clínica de mis mascotas para revisar su historial médico|<p>**Escenario 1:**<br>**Dado** que soy un usuario registrado,<br>**Cuando** selecciono una mascota,<br>**Entonces** debería poder ver su historia clínica completa.</p><p>**Escenario 2:**<br>**Dado** que soy un usuario registrado,<br>**Cuando** no hay historial disponible,<br>**Entonces** debería ver un mensaje indicando que no hay información médica aún.</p>|EP002|
+|**US004**|Agendamiento de Citas|Como usuario, deseo agendar citas veterinarias para organizar la atención de mis mascotas|<p>**Escenario 1:**<br>**Dado** que soy un usuario registrado,<br>**Cuando** elijo una fecha y hora,<br>**Entonces** debería poder confirmar y agendar la cita.</p><p>**Escenario 2:**<br>**Dado** que soy un usuario registrado,<br>**Cuando** intento agendar una cita en un horario no disponible,<br>**Entonces** debería ver un mensaje indicando la indisponibilidad.</p>|EP002|
+|**US005**|Personalización de Notificaciones|Como usuario, deseo personalizar las notificaciones para recibir solo la información relevante|<p>**Escenario 1:**<br>**Dado** que soy un usuario registrado,<br>**Cuando** configuro las notificaciones,<br>**Entonces** debería poder elegir qué tipo de alertas deseo recibir.</p><p>**Escenario 2:**<br>**Dado** que soy un usuario registrado,<br>**Cuando** desactivo las notificaciones,<br>**Entonces** no debería recibir ninguna alerta hasta que las reactive.</p>|EP003|
+|**US006**|Consulta de Servicios Veterinarios|Como usuario, deseo consultar los servicios veterinarios disponibles para seleccionar el adecuado|<p>**Escenario 1:**<br>**Dado** que soy un usuario registrado,<br>**Cuando** navego por los servicios,<br>**Entonces** debería poder ver una lista detallada de los mismos.</p><p>**Escenario 2:**<br>**Dado** que soy un usuario registrado,<br>**Cuando** selecciono un servicio específico,<br>**Entonces** debería ver los detalles y costos asociados.</p>|EP002|
+|**US007**|Visualización de Historial de Citas|Como usuario, deseo visualizar mi historial de citas para hacer seguimiento de las visitas anteriores|**Escenario 1:**<br>**Dado** que soy un usuario registrado,<br>**Cuando** accedo a mi historial de citas,<br>**Entonces** debería poder ver todas las citas anteriores con sus detalles.||
 
-Ciclo: 2024 - 2
+||
+| :- |
 
-Curso: Desarrollo de Aplicaciones Open Source
+||||||
+| :-: | :-: | :-: | :- | :-: |
 
-Sección: SW56
+|**Escenario 2:**<br>**Dado** que soy un usuario registrado,<br>**Cuando** no tengo citas anteriores,<br>**Entonces** debería ver un mensaje indicando que no hay citas en el historial.|
+| :- |
 
-Profesor: Efraín Ricardo Bautista Ubillús
+|||||EP004|
+| :-: | :-: | :-: | :- | :-: |
+|**US008**|||||
 
-“Informe TB1"
-ddsax
-Startup: LexMed
+||
+| :-: |
 
-Producto: 
+||||||
+| :-: | :-: | :-: | :- | :-: |
 
-Grupo: 1
+|Contacto con el Veterinario|
+| :-: |
 
-|          Integrantes          |      Código      |
-|:-----------------------------:|:-------------------:|
-|      |        |
-|   fg  fdf df df   |        |
-|De Las Casas Latour, Sebastián|u202213553|
-|Escobar Palomino , Sebastian Matias|u202125968|
-|Ticona Panduro, Estrella del Pilar| u202210659|
+|||Como usuario, deseo contactar al veterinario para hacer preguntas o recibir asesoría|<p>**Escenario 1:**<br>**Dado** que soy un usuario registrado,<br>**Cuando** uso la función de contacto,<br>**Entonces** debería poder enviar un mensaje directamente al veterinario.</p><p>**Escenario 2:**<br>**Dado** que soy un usuario registrado,<br>**Cuando** no hay un veterinario disponible,<br>**Entonces** debería ver un mensaje indicando la falta de disponibilidad.</p>|EP002|
+| :-: | :-: | :-: | :- | :-: |
+|**US009**|Acceso al Foro de la Comunidad|Como usuario, deseo acceder a un foro comunitario para interactuar con otros dueños de mascotas|<p>**Escenario 1:**<br>**Dado** que soy un usuario registrado,<br>**Cuando** entro al foro,<br>**Entonces** debería poder leer y publicar mensajes en las discusiones.</p><p>**Escenario 2:**<br>**Dado** que soy un usuario registrado,<br>**Cuando** un mensaje viola las reglas del foro,<br>**Entonces** debería poder reportarlo a los moderadores.</p>|EP003|
+|**US010**|Implementación de API RESTful|Como desarrollador, deseo implementar un API RESTful para la comunicación entre el frontend y backend|**Escenario 1:**<br>**Dado** que soy un desarrollador,<br>**Cuando** realizo un request de tipo GET,<br>**Entonces** debería recibir los datos solicitados en formato JSON.||
 
+||
+| :- |
 
+||||||
+| :-: | :-: | :-: | :- | :-: |
 
-</div>
+|**Escenario 2:**<br>**Dado** que soy un desarrollador,<br>**Cuando** realizo un request de tipo POST con datos válidos,<br>**Entonces** debería poder guardar la información en la base de datos.|
+| :- |
 
+|||||EP005|
+| :-: | :-: | :-: | :- | :-: |
+|**US011**|Monitorización de la Salud del Sistema|Como desarrollador, deseo monitorizar la salud del sistema para detectar problemas tempranos|<p>**Escenario 1:**<br>**Dado** que soy un desarrollador,<br>**Cuando** implemento un sistema de monitoreo,<br>**Entonces** debería recibir alertas automáticas en caso de fallas.</p><p>**Escenario 2:**<br>**Dado** que soy un desarrollador,<br>**Cuando** reviso los logs del sistema,<br>**Entonces** debería poder identificar y resolver problemas de rendimiento.</p>|EP005|
+|**US012**|Landing Page|Como visitante, deseo ver la información en la Landing Page para conocer los servicios ofrecidos|<p>**Escenario 1:**<br>**Dado** que soy un visitante,<br>**Cuando** ingreso al sitio web,<br>**Entonces** debería ver una presentación clara de los servicios ofrecidos en la Landing Page.</p><p>**Escenario 2:**<br>**Dado** que soy un visitante,<br>**Cuando** hago clic en un servicio específico,<br>**Entonces** debería ser dirigido a una página con más detalles sobre ese servicio.</p>|N/A|
+|**US013**|Contacto a través de la Landing Page|Como visitante, deseo contactar al equipo para obtener más información sobre los servicios|<p>**Escenario 1:**<br>**Dado** que soy un visitante,<br>**Cuando** lleno el formulario de contacto,<br>**Entonces** debería recibir una confirmación de que el mensaje fue enviado correctamente.</p><p>**Escenario 2:**<br>**Dado** que soy un visitante,<br>**Cuando** no completo todos los campos obligatorios del formulario,<br>**Entonces** debería ver un mensaje de error solicitando completar la información.</p>|US012|
 
-<p align="center">
-    <strong>Agosto, 2024</strong>
-</p>
-<br>
+## ` `**<a name="_toc176478920"></a>3.3. Impact Mapping**
+## <a name="_toc176169125"></a><a name="_toc176478921"></a>**3.4. Product Backlog**
 
-<h1 align="center">Registro de versiones del Informe</h1>
-</br>
-<table>
-        <thead>
-            <tr>
-                <th>Versión</th>
-                <th>Fecha</th>
-                <th>Autor</th>
-                <th>Descripción de modificaciones</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <th>TB1</th>
-                <td>20/08/2024</td>
-                <td>
-                    <ul>
-          <li>integrante 1 </li>
-          <li>integrante 2</li>
-          <li>integrante 3</li>
-          <li>integrante 4</li>
-          <li>integrante 5</li>
-                    <ul>
-           </td>
-      <td>            
-             <ul>
-          <li>Capítulo I: Introducción</li>
-          <li>Capítulo II: Requirements Elicitation & Analysis</li>
-          <li>Capítulo III: Requirements Specification</li>
-          <li>Capítulo IV: Product Design</li>
-          <li>Avance del Capítulo V: Product Implementation, Validation & Deployment hasta el punto 5.2.1.8</li>
-          <li>Avance de Conclusiones, Bibliografía y Anexos</li>
-        </ul>
-      </td>
-  </tr>
-</tbody>
-</table>
+|# Orden|User Story Id|Título|Descripción|<p>Story Points</p><p>(1 / 2 / 3 / 5</p><p>/ 8)</p>|
+| :-: | :-: | :-: | :-: | :-: |
+|1|US012|Landing Page|Como visitante, deseo ver la información en la Landing Page para conocer los servicios ofrecidos.|3|
+|2|US013|Contacto a través de la Landing Page|Como visitante, deseo contactar al equipo para obtener más información sobre los servicios.|3|
+|3|US001||||
 
-# Project Report Collaboration Insights
+||
+| :-: |
 
-# Contenido
-[Student Outcome](#student-outcome)
+|||<p></p><p>Inicio de Sesión</p>|Como usuario registrado, deseo iniciar sesión para acceder a mi cuenta.|2|
+| :-: | :-: | :-: | :- | :-: |
+|4|US003|Visualización de Historia Clínica|Como usuario, deseo visualizar la historia clínica de mis mascotas para revisar su historial médico.|5|
+|5|US002|Recuperación de Contraseña|Como usuario, deseo recuperar mi contraseña para acceder a mi cuenta si la olvido.|2|
+|6|US004|Agendamiento de Citas|Como usuario, deseo agendar citas veterinarias para organizar la atención de mis mascotas.|5|
+|7|US006|Consulta de Servicios Veterinarios|Como usuario, deseo consultar los servicios veterinarios disponibles para seleccionar el adecuado.|3|
+|8|US005|Personalización de Notificaciones|Como usuario, deseo personalizar las notificaciones para recibir solo la información relevante.|3|
+|9|US007||||
 
-[Capítulo I: Introducción](#capitulo-i-introducción)
-- [1.1. Startup Profile](#11-startup-profile)
-  - [1.1.1. Descripción de la Startup](#111-descripción-de-la-startup)
-  - [1.1.2. Perfiles de integrantes del equipo](#112-perfiles-de-integrantes-del-equipo)
-- [1.2. Solution Profile](#12-solution-profile)
-  - [1.2.1 Antecedentes y problemática](#121-antecedentes-y-problemática)
-  - [1.2.2 Lean UX Process](#122-lean-ux-process)
-    - [1.2.2.1. Lean UX Problem Statements](#1221-lean-ux-problem-statements)
-    - [1.2.2.2. Lean UX Assumptions](#1222-lean-ux-assumptions)
-    - [1.2.2.3. Lean UX Hypothesis Statements](#1223-lean-ux-hypothesis-statements)
-    - [1.2.2.4. Lean UX Canvas](#1224-lean-ux-canvas)
-- [1.3. Segmentos objetivo](#13-segmentos-objetivo)
+||
+| :-: |
 
-[Capítulo II: Requirements Elicitation & Analysis](#capítulo-ii-requirements-elicitation--analysis)
-- [2.1. Competidores](#21-competidores)
-  - [2.1.1. Análisis competitivo](#211-análisis-competitivo)
-  - [2.1.2. Estrategias y tácticas frente a competidores](#212-estrategias-y-tácticas-frente-a-competidores)
-- [2.2. Entrevistas](#22-entrevistas)
-  - [2.2.1. Diseño de entrevistas](#221-diseño-de-entrevistas)
-  - [2.2.2. Registro de entrevistas](#222-registro-de-entrevistas)
-  - [2.2.3. Análisis de entrevistas](#223-análisis-de-entrevistas)
-- [2.3. Needfinding](#23-needfinding)
-  - [2.3.1. User Personas](#231-user-personas)
-  - [2.3.2. User Task Matrix](#232-user-task-matrix)
-  - [2.3.3. User Journey Mapping](#233-user-journey-mapping)
-  - [2.3.4. Empathy Mapping](#234-empathy-mapping)
-  - [2.3.5. As-is Scenario Mapping](#235-as-is-scenario-mapping)
-- [2.4. Ubiquitous Language](#24-ubiquitous-language)
+|||<p></p><p>Visualización de Historial de Citas</p>|Como usuario, deseo visualizar mi historial de citas para hacer seguimiento de las visitas anteriores.|2|
+| :-: | :-: | :-: | :- | :-: |
+|10|US008|Contacto con el Veterinario|Como usuario, deseo contactar al veterinario para hacer preguntas o recibir asesoría.|3|
+|11|US009|Acceso al Foro de la Comunidad|Como usuario, deseo acceder a un foro comunitario para interactuar con otros dueños de mascotas.|5|
+|12|US010|Implementación de API RESTful|Como desarrollador, deseo implementar un API RESTful para la comunicación entre el frontend y backend.|8|
+|13|US011||||
 
-[Capítulo III: Requirements Specification](#capítulo-iii-requirements-specification)
-- [3.1. To-Be Scenario Mapping](#31-to-be-scenario-mapping)
-- [3.2. User Stories](#32-user-stories)
-- [3.3. Impact Mapping](#33-impact-mapping)
-- [3.4. Product Backlog](#34-product-backlog)
+||
+| :-: |
 
-[Capítulo IV: Product Design](#capítulo-iv-product-design)
-- [4.1. Style Guidelines](#41-style-guidelines)
-  - [4.1.1. General Style Guidelines](#411-general-style-guidelines)
-  - [4.1.2. Web Style Guidelines](#412-web-style-guidelines)
-- [4.2. Information Architecture](#42-information-architecture)
-  - [4.2.1. Organization Systems](#421-organization-systems)
-  - [4.2.2. Labeling Systems](#422-labeling-systems)
-  - [4.2.3. SEO Tags and Meta Tag](#423-seo-tags-and-meta-tag)
-  - [4.2.4. Searching Systems](#424-searching-systems)
-  - [4.2.5. Navigation Systems](#425-navigation-systems)
-- [4.3. Landing Page UI Design](#43-landing-page-ui-design)
-  - [4.3.1. Landing Page Wireframe](#431-landing-page-wireframe)
-  - [4.3.2. Landing Page Mock-up](#432-landing-page-mock-up)
-- [4.4. Web Applications UX/UI Design](#44-web-applications-uxui-design)
-  - [4.4.1. Web Applications Wireframes](#411-general-style-guidelines)
-  - [4.4.2. Web Applications Wireflow Diagrams](#442-web-applications-wireflow-diagrams)
-  - [4.4.3. Web Applications Mock-ups](#443-web-applications-mock-ups)
-  - [4.4.4. Web Applications User Flow Diagrams](#444-web-applications-user-flow-diagrams)
-- [4.5. Web Applications Prototyping](#45-web-applications-prototyping)
-- [4.6. Domain-Driven Software Architecture](#46-domain-driven-software-architecture)
-  - [4.6.1. Software Architecture Context Diagram](#461-software-architecture-context-diagram)
-  - [4.6.2. Software Architecture Container Diagrams](#462-software-architecture-container-diagrams)
-  - [4.6.3. Software Architecture Components Diagrams](#463-software-architecture-components-diagrams)
-- [4.7. Software Object-Oriented Design](#47-software-object-oriented-design)
-  - [4.7.1. Class Diagrams](#471-class-diagrams)
-  - [4.7.2. Class Dictionary](#472-class-dictionary)
-- [4.8. Database Design](#48-database-design)
-  - [4.8.1. Database Diagram](#481-database-diagram)
+|||<p></p><p>Monitorización de la Salud del Sistema</p>|Como desarrollador, deseo monitorizar la salud del sistema para detectar problemas tempranos.|8|
+| :-: | :-: | :-: | :- | :-: |
+|14|US014|Gestión de Mascotas|||
 
-[Capítulo V: Product Implementation, Validation & Deployment](#capítulo-v-product-implementation-validation--deployment)
-- [5.1. Software Configuration Management](#51-software-configuration-management)
-  - [5.1.1. Software Development Environment Configuration](#511-software-development-environment-configuration)
-  - [5.1.2. Source Code Management](#512-source-code-management)
-  - [5.1.3. Source Code Style Guide & Conventions](#513-source-code-style-guide--conventions)
-  - [5.1.4. Software Deployment Configuration](#514-software-deployment-configuration)
-- [5.2. Landing Page, Services & Applications Implementation](#52-landing-page-services--applications-implementation)
-  - [5.2.X. Sprint n ](#52x-sprint)
-    - [5.2.X.1. Sprint Planning n](#52x1-sprint-planning-n)
-    - [5.2.X.2. Sprint Backlog n](#52x2-sprint-backlog-n)
-    - [5.2.X.3. Development Evidence for Sprint Review](#52x3-development-evidence-for-sprint-review)
-    - [5.2.X.4. Testing Suite Evidence for Sprint Review](#52x4-testing-suite-evidence-for-sprint-review)
-    - [5.2.X.5. Execution Evidence for Sprint Review](#52x5-execution-evidence-for-sprint-review)
-    - [5.2.X.6. Services Documentation Evidence for Sprint Review](#52x6-services-documentation-evidence-for-sprint-review)
-    - [5.2.X.7. Software Deployment Evidence for Sprint Review](#52x7-software-deployment-evidence-for-sprint-review)
-    - [5.2.X.8. Team Collaboration Insights during Sprint](#52x8-team-collaboration-insights-during-sprint)
-- [5.3. Validation Interviews](#53-validation-interviews)
-  - [5.3.1. Diseño de Entrevistas](#531-diseño-de-entrevistas)
-  - [5.3.2. Registro de Entrevistas](#532-registro-de-entrevistas)
-  - [5.3.3. Evaluaciones según heurísticas](#533-evaluaciones-según-heurísticas)
-- [5.4. Video About-the-Product](#54-video-about-the-product)
+||
+| :-: |
 
-[Conclusiones](#conclusiones)
-- [Conclusiones y recomendaciones](#conclusiones-y-recomendaciones)
-- [Video About-the-Team](#video-about-the-team)
-
-[Bibliografía](#bibliografía)
-
-[Anexos](#anexos)
-
-# Student Outcome
-
-
-# Capítulo I: Introducción
-## 1.1. Startup Profile
-### 1.1.1. Descripción de la Startup
-### 1.1.2. Perfiles de integrantes del equipo
-## 1.2. Solution Profile
-### 1.2.1 Antecedentes y problemática
-### 1.2.2 Lean UX Process
-#### 1.2.2.1. Lean UX Problem Statements
-#### 1.2.2.2. Lean UX Assumptions
-#### 1.2.2.3. Lean UX Hypothesis Statements
-#### 1.2.2.4. Lean UX Canvas
-## 1.3. Segmentos objetivo
-
-# Capítulo II: Requirements Elicitation & Analysis
-## 2.1. Competidores
-### 2.1.1. Análisis competitivo
-### 2.1.2. Estrategias y tácticas frente a competidores
-## 2.2. Entrevistas
-### 2.2.1. Diseño de entrevistas
-### 2.2.2. Registro de entrevistas
-### 2.2.3. Análisis de entrevistas
-## 2.3. Needfinding
-### 2.3.1. User Personas
-### 2.3.2. User Task Matrix
-### 2.3.3. User Journey Mapping
-### 2.3.4. Empathy Mapping
-### 2.3.5. As-is Scenario Mapping
-## 2.4. Ubiquitous Language
-<img src="Tp/prueba.png" style="width: 50%;"/>
-
-# Capítulo III: Requirements Specification
-## 3.1. To-Be Scenario Mapping
-## 3.2. User Stories
-## 3.3. Impact Mapping
-## 3.4. Product Backlog
-
-# Capítulo IV: Product Design
-## 4.1. Style Guidelines
-### 4.1.1. General Style Guidelines
-### 4.1.2. Web Style Guidelines
-## 4.2. Information Architecture
-### 4.2.1. Organization Systems
-### 4.2.2. Labeling Systems
-### 4.2.3. SEO Tags and Meta Tag
-### 4.2.4. Searching Systems
-### 4.2.5. Navigation Systems
-## 4.3. Landing Page UI Design
-### 4.3.1. Landing Page Wireframe
-### 4.3.2. Landing Page Mock-up
-## 4.4. Web Applications UX/UI Design
-### 4.4.1. Web Applications Wireframes
-### 4.4.2. Web Applications Wireflow Diagrams
-### 4.4.3. Web Applications Mock-ups
-### 4.4.4. Web Applications User Flow Diagrams
-## 4.5. Web Applications Prototyping
-## 4.6. Domain-Driven Software Architecture
-### 4.6.1. Software Architecture Context Diagram
-### 4.6.2. Software Architecture Container Diagrams
-### 4.6.3. Software Architecture Components Diagrams
-## 4.7. Software Object-Oriented Design
-### 4.7.1. Class Diagrams
-### 4.7.2. Class Dictionary
-## 4.8. Database Design
-## 4.8.1. Database Diagram
-
-# Capítulo V: Product Implementation, Validation & Deployment
-## 5.1. Software Configuration Management
-### 5.1.1. Software Development Environment Configuration
-### 5.1.2. Source Code Management
-### 5.1.3. Source Code Style Guide & Conventions
-### 5.1.4. Software Deployment Configuration
-## 5.2. Landing Page, Services & Applications Implementation
-### 5.2.X. Sprint 
-#### 5.2.X.1. Sprint Planning n
-#### 5.2.X.2. Sprint Backlog n
-#### 5.2.X.3. Development Evidence for Sprint Review
-#### 5.2.X.4. Testing Suite Evidence for Sprint Review
-#### 5.2.X.5. Execution Evidence for Sprint Review
-#### 5.2.X.6. Services Documentation Evidence for Sprint Review
-#### 5.2.X.7. Software Deployment Evidence for Sprint Review
-#### 5.2.X.8. Team Collaboration Insights during Sprint
-## 5.3. Validation Interviews
-### 5.3.1. Diseño de Entrevistas
-### 5.3.2. Registro de Entrevistas
-### 5.3.3. Evaluaciones según heurísticas
-# 5.4. Video About-the-Product
-
-# Conclusiones
-## Conclusiones y recomendaciones
-## Video About-the-Team.
-
-# Bibliografía
-
-# Anexos
+||||Como usuario, deseo gestionar las mascotas bajo mi cuidado para mantener su información actualizada.|3|
+| :-: | :-: | :-: | :- | :-: |
+|15|US015|Registro de Usuario|Como usuario nuevo, deseo registrarme en la plataforma para acceder a las funcionalidades del sistema|5|
+|16|US016|Administración del Backend|Como desarrollador, deseo administrar el backend del sistema para garantizar el correcto funcionamiento.|8|
